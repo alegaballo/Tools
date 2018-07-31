@@ -1,3 +1,15 @@
+'''
+This script helps you manage your work schedule, giving you details about how much work you've done and how much you
+have left (in terms of hours). 
+To use the script run:
+python job_schedule.py -s <start_time> [-b <break_time>] [-d <work_day_duation]
+
+Parameters format:
+<start_time> HH:MM
+<break_time> minutes
+<work_day_duration> hours
+
+'''
 import argparse
 import re
 import datetime
@@ -25,9 +37,9 @@ def check_wday_duration(value):
     duration = int(value)
     
     if duration <= 4 or duration >12:
-        raise argparse.ArgumentTypeError("%s is an invalid value, work day duration must be between 4 and 12 hourse" % value)
+        raise argparse.ArgumentTypeError("%s is an invalid value, work day duration must be between 4 and 12 hourse" 
+                                        % value)
     return value
-
 
 
 def get_working_time(args):
@@ -50,18 +62,23 @@ def get_working_time(args):
     end_time = work_left + curr_time
     if work_left.total_seconds() < 0:
         buffer_ = curr_time  - end_time
-        print("It's %s, you worked for %s, you have worked %s more, you could have gone home at %s" %(curr_time, work_time, buffer_, end_time))
+        print("It's %s, you worked for %s, you have worked %s more, you could have gone home at %s" 
+                % (curr_time, work_time, buffer_, end_time))
     else:
-        print("It's %s, you worked for %s, you have %s left, you can go home at %s" %(curr_time, work_time, work_left, end_time))
+        print("It's %s, you worked for %s, you have %s left, you can go home at %s"
+                % (curr_time, work_time, work_left, end_time))
 
 
 def main():
-    parser = argparse.ArgumentParser(description = "Compute your job daily schedule according to start time, break duration and work-day duration")
+    parser = argparse.ArgumentParser(description = '''Compute your job daily schedule according to start time, 
+                                                    break duration and work-day duration''')
     parser.add_argument('-s', type=check_start_time, required=True, help='start time HH:MM')
     parser.add_argument('-b', type=check_break_duration, default=60, help='lunch break duration in MINUTES')
     parser.add_argument('-d', type=check_wday_duration, default=8.0, help='work-day duration in HOURS')
     args = parser.parse_args()
     get_working_time(args)
+
+
 
 if __name__ == "__main__":
     main()
