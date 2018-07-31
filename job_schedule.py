@@ -37,9 +37,9 @@ def check_wday_duration(value):
     duration = int(value)
     
     if duration <= 4 or duration >12:
-        raise argparse.ArgumentTypeError("%s is an invalid value, work day duration must be between 4 and 12 hourse" 
+        raise argparse.ArgumentTypeError("%s is an invalid value, work day duration must be between 4 and 12 hours" 
                                         % value)
-    return value
+    return duration
 
 
 def get_working_time(args):
