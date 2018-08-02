@@ -1,0 +1,6 @@
+# pyc files
+*.pyc
+
+# hidden files but .gitignore
+.*
+!.gitignore
