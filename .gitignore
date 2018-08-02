@@ -4,6 +4,8 @@
 
 # hidden files but .gitignore
 .*
-!.gitignorei
-
+!.gitignore
 *.py~
+
+# credentials
+playlist_creator/spotify_tokens.py
