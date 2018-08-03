@@ -12,12 +12,17 @@ warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 
 import pandas as pd
 
-def get_songs(database, **kwargs):
+def get_songs_list(database, **kwargs):
     genres = kwargs["genre(s)"]
     moods = kwargs["mood(s)"]
-    print(database.genre)
-    print(genres)
-    print(database.genre.isin(genres))
+    filtered = database
+    if genres:
+        filtered = filtered[filtered.genre.isin(genres)]
+    if moods:
+        filtered = filtered[filtered.mood.isin(moods)] 
+
+    print(filtered)
+    return filtered
 
 def create_spotify_playlist(spotify, user, title, public=True, description="Auto-generated playlist"):
     res = spotify.user_playlist_create(user, title, public, description)
@@ -40,13 +45,19 @@ def main():
                                 client_id=spotify_tokens.SPOTIPY_CLIENT_ID,
                                 client_secret=spotify_tokens.SPOTIPY_CLIENT_SECRET, 
                                 redirect_uri=spotify_tokens.SPOTIPY_REDIRECT_URI)
+    print(token)
     sp = spotipy.Spotify(auth=token)
-    
-    #playlist_id = create_spotify_playlist(sp, args.user, args.title)
+    # playlist_id = create_spotify_playlist(sp, args.user, args.title)
     # a list of IDs is expected, even if it's a single song
-    #sp.user_playlist_add_tracks(args.user, playlist_id, ["2IZdcwQPUj99UDROhTY4D4"])
-    database = pd.read_csv(args.file, skipinitialspace=True)
-    songs = get_songs(database, **vars(args))
+    # sp.user_playlist_add_tracks(args.user, playlist_id, ["2IZdcwQPUj99UDROhTY4D4"])
+    database = pd.read_csv(args.file, sep=' *, *', engine="python")
+    songs = get_songs_list(database, **vars(args))
+    
+    for row in songs.itertuples():
+        print(row.artist, row.title)
+        print(sp.search(q="track:%s artist:%s" % (row.title, row.artist.replace("_", " ")), limit=1, type="track")
+                ["id"])
+
 
 if __name__ == "__main__":
     main()
