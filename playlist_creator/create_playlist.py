@@ -53,10 +53,31 @@ def main():
     database = pd.read_csv(args.file, sep=' *, *', engine="python")
     songs = get_songs_list(database, **vars(args))
     
+    
+    tracks = []
+    playlist_duration = 0
+    # converting the playlist required duration in ms
+    required_playlist_duration = args.duration * 60 * 1000
     for row in songs.itertuples():
         print(row.artist, row.title)
-        print(sp.search(q="track:%s artist:%s" % (row.title, row.artist.replace("_", " ")), limit=1, type="track")
-                ["id"])
+        res = sp.search(q="track:%s artist:%s" % (row.title, row.artist.replace("_", " ")), limit=1, type="track") 
+        
+        try:
+            track_id = res["tracks"]["items"][0]["id"]
+            duration_ms = res["tracks"]["items"][0]["duration_ms"]
+            tracks.append(track_id)
+            playlist_duration += duration_ms
+            if playlist_duration >= required_playlist_duration:
+                print("Creating playlist...")
+                playlist_id = create_spotify_playlist(sp, args.user, args.title)
+                print("Created playlist: %s" % playlist_id)
+                print("Adding tracklist: ", tracks)
+                sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
+                print("DONE" , tracks)
+                break
+        
+        except IndexError:
+            print(res)
 
 
 if __name__ == "__main__":
