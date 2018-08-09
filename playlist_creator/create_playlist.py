@@ -24,6 +24,7 @@ def get_songs_list(database, **kwargs):
     print(filtered)
     return filtered
 
+
 def create_spotify_playlist(spotify, user, title, public=True, description="Auto-generated playlist"):
     res = spotify.user_playlist_create(user, title, public, description)
     return res['id']
@@ -47,16 +48,34 @@ def main():
                                 redirect_uri=spotify_tokens.SPOTIPY_REDIRECT_URI)
     print(token)
     sp = spotipy.Spotify(auth=token)
-    # playlist_id = create_spotify_playlist(sp, args.user, args.title)
-    # a list of IDs is expected, even if it's a single song
-    # sp.user_playlist_add_tracks(args.user, playlist_id, ["2IZdcwQPUj99UDROhTY4D4"])
     database = pd.read_csv(args.file, sep=' *, *', engine="python")
     songs = get_songs_list(database, **vars(args))
     
+    
+    tracks = []
+    playlist_duration = 0
+    # converting the playlist required duration in ms
+    requested_playlist_duration = args.duration * 60 * 1000
     for row in songs.itertuples():
         print(row.artist, row.title)
-        print(sp.search(q="track:%s artist:%s" % (row.title, row.artist.replace("_", " ")), limit=1, type="track")
-                ["id"])
+        res = sp.search(q="track:%s artist:%s" % (row.title, row.artist.replace("_", " ")), limit=1, type="track") 
+        
+        try:
+            track_id = res["tracks"]["items"][0]["id"]
+            duration_ms = res["tracks"]["items"][0]["duration_ms"]
+            tracks.append(track_id)
+            playlist_duration += duration_ms
+            if playlist_duration >= requested_playlist_duration:
+                print("Creating playlist...")
+                playlist_id = create_spotify_playlist(sp, args.user, args.title)
+                print("Created playlist: %s" % playlist_id)
+                print "Adding tracklist: ", tracks
+                sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
+                print("DONE")
+                break
+        
+        except IndexError:
+            print(res)
 
 
 if __name__ == "__main__":
