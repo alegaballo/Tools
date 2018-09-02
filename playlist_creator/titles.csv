@@ -1,43 +1,43 @@
-artists,title
-TRBL,Sleep Inducer
-Kai_Tracid,Trance & Acid
-2+2=5,Everything Comes To An End
-TRBL,the priest
-TRBL,artifact
-TRBL,volucris
-TRBL,Drvgstore
-TRBL,cloudless
-Rafael_Cerato Haze_M,Vishnu
-aphex_twin,xtal
-kisnou,let go
-throwing_snow,clasp
-TRBL,Eternal Darkness
-moderat,Les Grandes Marches
-moderat,seamonky
-moderat,3 minutes of
-TRBL,forgotten tales
-TRBL,diversity
-voin_oruwu,amplification
-voin_oruwu,specter
-Lag Truss,DHC3
-Lag Forward_Strategy_Group,Sama Doma
-Shards,Wentworth
-rival_consoles,memory arc
-rival_consoles,unfolding
-rival_consoles,be kind
-rival_consoles,suns's abandon
-rival_consoles,dreamer's wake
-rival_consoles,hidden
-Z.I.P.P.O,The Choice
-Schubert Liszt,Auf dem Wasser zu singen
-Purple_Disco_Machine,my house
-chloe,wonky
-DWIG,Orange Evening
-tale_of_us energy_52,cafe del mar
-mathame tale_of_us,nothing around us
-louis_armstrong,what a wonderful world
-cole_porter,you'd be so nice to come home to
-Albinoni,Adagio in G Minor
+artists,title,genre,src,bpm,tags,rating
+TRBL,Sleep Inducer,techno,sc,136,dark heavy,2
+Kai_Tracid,Trance & Acid,techno acid,yt,138,heavy voice,2
+2+2=5,Everything Comes To An End,techno acid,yt,137,heavy,2
+TRBL,the priest,techno acid,yt,138,melodic heavy,1
+TRBL,artifact,techno,sc,138,melodic heavy,2
+TRBL,volucris,techno acid,sc,139,heavy,1
+TRBL,Drvgstore,techno acid,sc,143,heavy,1
+TRBL,cloudless,techno,yt,144,melodic heavy,1
+Rafael_Cerato Haze_M,Vishnu,techno,sc,124,melodic voice,1
+aphex_twin,xtal,electronic,yt,116,melodic,1
+kisnou,let go,ambient,yt,,soft piano,1
+throwing_snow,clasp,electronic downtempo,yt,124,melodic heavy,2
+TRBL,Eternal Darkness,techno,yt,144,melodic heavy,2
+moderat,Les Grandes Marches,electronic,yt,136,melodic heavy,2
+moderat,seamonky,techno,yt,129,dark melodic,2
+moderat,3 minutes of,electronic,yt,140,changing,1
+TRBL,forgotten tales,techno acid,yt,148,heavy,3
+TRBL,diversity,techno acid,sc,145,melodic,heavy,2
+voin_oruwu,amplification,electronic,yt,123,heavy,3
+voin_oruwu,specter,techno acid,sc,125,dark,2
+Lag Truss,DHC3,techno,yt,127,dark heavy,2
+Lag Forward_Strategy_Group,Sama Doma,techno,yt,130,boring heavy,1
+Shards,Wentworth,techno,yt,123,heavy fat,3
+rival_consoles,memory arc,electronic,yt,,chill,1
+rival_consoles,unfolding,electronic,yt,120,melodic,1
+rival_consoles,be kind,electronic,yt,,melodic,1
+rival_consoles,suns's abandon,electronic downtempo,yt,180,melodic,1
+rival_consoles,dreamer's wake,electronic,yt,114,soft melodic,3
+rival_consoles,hidden,electronic downtempo,yt,137,melodic,2
+Z.I.P.P.O,The Choice,techno,yt,133,boring,1
+Schubert Liszt,Auf dem Wasser zu singen,classical,yt,piano soft heavy,2
+Purple_Disco_Machine,my house,deep house,yt,120,chill,2
+chloe,wonky,deep house,yt,121,chill boring,2
+DWIG,Orange Evening,electronic,yt,118,chill dark,2
+tale_of_us energy_52,cafe del mar,techno,yt,126,melodic,3
+mathame tale_of_us,nothing around us,techno,yt,126,melodic,3
+louis_armstrong,what a wonderful world,jazz,yt,,voice,3
+cole_porter,you'd be so nice to come home to,jazz,yt,,voice,2
+Albinoni,Adagio in G Minor,
 Offenbach,Barcarolle
 Bach,Ave Maria
 Bach,Cello Suite No 1 in G
@@ -1499,154 +1499,148 @@ Works_Unit,Insulation One
 YYYY,Relic
 Public_Energy,Three O' Three
 Drop-E,Negligencia Hemisférica
-Slam,Blue Dragon
-Markus Suckut,Your Head
-SALVATORE_GENOVESE,Hidden Soul
-Altinbas,Intonation
-Christian_Wünsch,Fluid Mechanics
-999999999,300000003
-Slam,Constructivism
-Mattia_Trani,Rage Condition
-Eonan Oliver_Deutschmann,Substanz I
-Envoy Dax_J,Dark Manoeuvres
-Treuhand,Shiva
-I_Hate_Models,Cyanure Dance
-Yotam_Avni,If You Still Want Me
-TRYM,Idyllic
-Trym,London Rave
-Trym,Zone industrielle de Courbevoie 
-Tim_Tama,Sometimes I Reminisce
-Trym,The summer of rave 1989
-Trym,BDSM
-Eomac,Spoock
-Minimum_Syndicat,MASS EVACUATION
-I_Hate_Models,Requiem of Desolation
-Gijensu,Hyperlight
-Scorp,New Energy
-Giacomo Renzi,Exit
-Blawan,993
-Dentis,90's Bohemian Rave
-Marco_Bailey,Nyctophilia
-VRIL,Thronwagen
-Vril,Vortekz
-Vril,Portal 7
-Pfirter,Fractales
-Jeroen_Search,The Future Is Ours
-DVS1,Electric
-Weyner,The Voice Of Rave
-Nico_Moreno,Insolent Rave
-Nico_Moreno,Beyond The Limits
-Niki_Istrefi,Chambers
-Niki_Istrefi,red armor
-Process_404,Latest Rave In The Bunker
-Juxta_Position,The Darkness
-Marco_Faraone,Boost
-Steve_Rachmad,Disturbance
-Marco_Faraone,Over The Clouds
-Nathan_Fake,Fortune Bru
-CONTREFAÇON,Casting
-Yves_Deruyter,Back To Earth
-claire,IV (Fight Against The Darkness)
-claire,III (Across The Sky)
-claire,II (Something Is Watching Us)
-claire,I (I Want To Believe)
-Brulée Claire,Conflit
-Rob_Threezy,Chicago on Acid
-Trym,GTA Life
-Klamer,Gott segne die Säure
-Negative_Return,First Light
-Keith_Carnal,Hundge
-Keith_Carnal,Irrational Behavior
-Keith_Carnal,Keep
-Keith_Carnal,Shallow
-Keith_Carnal,Untold
-ANGLE Luca_Agnelli,Hold Your Breath
-Barnt,If She Says She Is A Healer She Is A Healer
-Bastinov Luca_Agnelli,Pentagon
-Bastinov,Space Programmer
-Bjarki,This 5321
-Blawan,993
-Dubiosity Pjotr_G,Black Frost
-Dubiosity Pjotr_G,Bootstrap
-Juxta_Position,The Darkness
-Christian_Smith,Force Majeure
-CPI Barnt,Proceso
-Danny_Daze,Pop
-Dast Luca_Agnelli,Pangea
-DJ_Tennis,Chirality
-Dodi_Palese,Brainscapes
-Fables,Burn
-Narciss,Epilog
-Fango,Cortex
-Fango,Lampo
-Fango,Medulla
-Fango,Tuono
-Fango,Valvae 
-Fango,Vena Cava
-Hedrome,Act of Confusion
-I_Hate_Models,Shades of Night
-I_HATE_MODELS,Sorrows of the Moon
-I_Hate_Models,Totsuka No Tsurugi
-James_Ruskin,DVS1
-Jean_Pierre Vega,Lemont
-Jeroen_Search,Dal Segno 
-Johannes_Heil,Gospel Four
-Johannes_Heil,Gospel Thirteen
-Johannes_Heil Markus_Suckut,Gospel Twelve
-Jonas_Kopp,Metatron
-Jonas_Kopp,The Quantic Room
-Jonas_Kopp,Where Physic Ends
-Kntrl Luca_Agnelli,Stay
-Levon_Vincent,Small Whole Numbered Ratios
-Maarten_Mittendorff,Futura
-Mathew_Jonson,Marionette
-Niki_Istrefi,Red Armor
-Objection,Quantum
-Oscar_Mulero,Second Skin
-Reform Amelie_Lens,Checkmate
-Regis,Blinding Horses
-Roberto,Gibbus
-Rod,Hor
-Roman_Poncet,Atome II
-Roman_Poncet,Atome I
-Shed,Day After
-Shifted,White Flare
-SHNGL,Transcendental Apperception
-Surgeon,Atol
-Tensal,Artica Maex
-Tensal,Luxura
-Tiefschwarz Khan Roman_Flügel,Do Me
-VII_Circle Farrago,Alpha
-ZIPPO,Pharaohs Line
-Laval,The Emotion Machine 
-Jeff_Rushin,Form 
-Hemka Moteka,Apogee
-Dast,Ixor
-Maxime_Dangles,Our Own Choices
-Luca_Agnelli,Aplu
-Taraval,Topaz's Way
-Reform,Atlantide
-Diego_Amura,Euphausia
-Alan_Fitzpatrick,A Subtle Change
-Age_Of_Love Jam_&_Spoon,The Age Of Love
-Steve_Parker,The Prophet
-kink,pocket piano
-legend_b,lost in love
-747,tataki attack
-747,proxima
-747,holocene
-747,suture lines
-747,astero ceras
-747,tethys
-traumprinz,big baby jesus
-vril,flux
-747,cambrian
-747,cretaceous
-vii_circle,eternal
-747,pangea
-gijensu,year 5050
-tale_of_us,gta online after hours
-solomun,gta online after hours
-steve_parker,horns of jupiter
-steve_parker,acid machine
-push,universal nation
+Slam,Blue Dragon,techno acid,yt,133,,1
+Markus Suckut,Your Head,techno acid,yt,129,,1
+SALVATORE_GENOVESE,Hidden Soul,techno,yt,136,heavy,3
+Altinbas,Intonation,techno,yt,132,dark heavy,3
+Christian_Wünsch,Fluid Mechanics,techno,yt,128,dark heavy,1
+999999999,300000003,techno acid,yt,133,,1
+Slam,Constructivism,techno,yt,130,heavy,1
+Mattia_Trani,Rage Condition,techno acid,yt,128,,1
+Eonan Oliver_Deutschmann,Substanz I,techno,yt,132,dark,1
+Envoy Dax_J,Dark Manoeuvres,techno,yt,132,heavy,2
+Treuhand,Shiva,techno acid,yt,133,heavy,3
+I_Hate_Models,Cyanure Dance,techno acid,yt,131,heavy,2
+Yotam_Avni,If You Still Want Me,techno,yt,127,dark,2
+TRYM,Idyllic,techno,yt,145,heavy,2
+Trym,London Rave,techno,yt,145,heavy melodic,3
+Trym,Zone industrielle de Courbevoie,techno acid,yt,150,heavy,3
+Tim_Tama,Sometimes I Reminisce,techno acid,yt,135,heavy,2
+Trym,The summer of rave 1989,techno,yt,151,heavy,3
+Trym,BDSM,techno acid,yt,150,heavy fat,3
+Eomac,Spoock,techno,yt,135,heavy boring,3
+Minimum_Syndicat,MASS EVACUATION,techno,yt,130,heavy,2
+I_Hate_Models,Requiem of Desolation,techno,yt,138,heavy,2
+Gijensu,Hyperlight,techno,yt,150,melodic heavy,3
+Scorp,New Energy,techno,yt,140,heavy,2
+Giacomo Renzi,Exit,techno acid,yt,130,heavy,2
+Dentis,90's Bohemian Rave,techno,yt,135,heavy,3
+Marco_Bailey,Nyctophilia,,techno,yt,128,heavy,1
+VRIL,Thronwagen,techno,yt,126,dark,2
+Vril,Vortekz,techno,yt,123,dark,2
+Vril,Portal 7,techno,yt,126,dark,2
+Pfirter,Fractales,techno,yt,128,heavy,2
+Jeroen_Search,The Future Is Ours,techno,yt,131,heavy,2
+DVS1,Electric,techno,yt,130,dark,2
+Weyner,The Voice Of Rave,techno acid,yt,140,dark,2
+Nico_Moreno,Insolent Rave,techno,yt,155,heavy,3
+Nico_Moreno,Beyond The Limits,trance,yt,145,heavy,3
+Niki_Istrefi,Chambers,techno,yt,138,heavy boring,2
+Process_404,Latest Rave In The Bunker,techno,yt,148,heavy,3
+Marco_Faraone,Boost,techno,yt,128,heavy,1
+Steve_Rachmad,Disturbance,techno,yt,130,,2
+Marco_Faraone,Over The Clouds,techno,yt,126,heavy,2
+Nathan_Fake,Fortune Bru,techno acid,yt,130,melodic,2
+CONTREFAÇON,Casting,techno acid,yt,140,heavy,2
+Yves_Deruyter,Back To Earth,trance,yt,147,,1
+clair,IV (Fight Against The Darkness),trance acid,sc,150,heavy,3
+clair,III (Across The Sky),trance,sc,148,heavy,3
+clair,II (Something Is Watching Us),trance,sc,150,heavy,3
+clair,I (I Want To Believe),trance acid,sc,148,heavy,2
+Brulée Claire,Conflit,techno acid,yt,142,,2
+Rob_Threezy,Chicago on Acid,techno acid,yt,128,,3
+Trym,GTA Life,techno acid,yt,132,melodic,2
+Klamer,Gott segne die Säure,techno acid,yt,146,,3
+Negative_Return,First Light,techno acid,yt,143,,2
+Keith_Carnal,Hundge,techno,yt,126,,1
+Keith_Carnal,Irrational Behavior,techno,yt,127,,1
+Keith_Carnal,Keep,techno,yt,127,,1
+Keith_Carnal,Shallow,techno,yt,129,,2
+Keith_Carnal,Untold,techno,yt,128,heavy dark,1
+ANGLE Luca_Agnelli,Hold Your Breath,techno,yt,129,heavy dark,2
+Barnt,If She Says She Is A Healer She Is A Healer,techno,yt,125,heavy,2
+Bastinov Luca_Agnelli,Pentagon,techno,yt,127,heavy,2
+Bastinov,Space Programmer,techno,yt,128,heavy,2
+Bjarki,This 5321,techno,yt,132,heavy dark fat,2
+Blawan,993,techno acid,yt,130,heavy,3
+Dubiosity Pjotr_G,Black Frost,techno acid,yt,130,melodic,2
+Dubiosity Pjotr_G,Bootstrap,techno acid,yt,130,heavy,2
+Juxta_Position,The Darkness,techno,yt,127,heavy dark,3
+Christian_Smith,Force Majeure,techno,yt,125,,1
+CPI Barnt,Proceso,techno acid,yt,120,melodic,3
+Danny_Daze,Pop,techno,yt,129,heavy dark,2
+Dast Luca_Agnelli,Pangea,techno,yt,128,heavy,2
+DJ_Tennis,Chirality,techno,yt,120,dark,1
+Dodi_Palese,Brainscapes,techno acid,yt,129,,2
+Fables,Burn,techno,yt,125,melodic,2
+Narciss,Epilog,techno,yt,134,melodic,2
+Fango,Cortex,techno,yt,126,heavy,3
+Fango,Lampo,techno,yt,125,heavy,3
+Fango,Medulla,techno,yt,125,heavy dark,3
+Fango,Tuono,techno,yt,124,dark,2
+Fango,Valvae,techno,yt,125,dark melodic,3
+Fango,Vena Cava,techno,yt,124,heavy,3
+I_Hate_Models,Shades of Night,techno,yt,136,melodic,1
+I_HATE_MODELS,Sorrows of the Moon,techno,yt,134,heavy,2
+I_Hate_Models,Totsuka No Tsurugi,techno acid,yt,137,heavy dark melodic,3
+James_Ruskin,DVS1,techno,yt,130,heavy,1
+Jean_Pierre Vega,Lemont,techno,yt,123,heavy,2
+Jeroen_Search,Dal Segno,techno,yt,124,dark heavy,2
+Johannes_Heil,Gospel Four,techno,yt,130,,2
+Johannes_Heil,Gospel Thirteen,techno,yt,129,melodic,2
+Johannes_Heil Markus_Suckut,Gospel Twelve,techno,yt,129,heavy,3
+Jonas_Kopp,Metatron,techno,yt,130,heavy,1
+Jonas_Kopp,The Quantic Room,techno,yt,130,heavy,1
+Jonas_Kopp,Where Physic Ends,techno,yt,129,dark,2
+Kntrl Luca_Agnelli,Stay,techno,yt,127,melodic dark,3
+Levon_Vincent,Small Whole Numbered Ratios,techno,yt,118,,1
+Maarten_Mittendorff,Futura,techno,yt,126,,1
+Mathew_Jonson,Marionette,techno,yt,129,,2
+Niki_Istrefi,Red Armor,techno,yt,140,heavy dark boring,3
+Objection,Quantum,techno acid,yt,126,heavy dark,2
+Oscar_Mulero,Second Skin,techno acid,yt,125,heavy,1
+Reform Amelie_Lens,Checkmate,techno,yt,128,dark heavy,3
+Roberto,Gibbus,techno,yt,130,heavy,2
+Roman_Poncet,Atome II,techno,yt,130,heavy boring,2
+Roman_Poncet,Atome I,techno,yt,130,heavy dark,3
+Shed,Day After,techno downtempo,yt,123,heavy melodic,2
+Shifted,White Flare,techno,yt,126,heavy,1
+SHNGL,Transcendental Apperception,techno,yt,130,heavy,1
+Surgeon,Atol,techno,yt,128,,2
+Tensal,Artica Maex,techno,yt,127,heavy,1
+Tensal,Luxura,techno,yt,128,heavy dark,1
+Tiefschwarz Khan Roman_Flügel,Do Me,techno,yt,122,heavy,2
+VII_Circle Farrago,Alpha,techno,yt,130,heavy,1
+ZIPPO,Pharaohs Line,techno,yt,133,boring,2
+Laval,The Emotion Machine,techno,yt,130,melodic,2
+Jeff_Rushin,Form,techno,yt,127,dark heavy,3
+Hemka Moteka,Apogee,techno,yt,132,dark heavy,2
+Dast,Ixor,techno,yt,128,,1
+Maxime_Dangles,Our Own Choices,techno,yt,130,melodic heavy,2
+Luca_Agnelli,Aplu,techno,yt,130,melodic heavy,2
+Taraval,Topaz's Way,techno,yt,127,,2
+Reform,Atlantide,techno,yt,128,dark heavy,1
+Diego_Amura,Euphausia,techno,yt,131,,2
+Alan_Fitzpatrick,A Subtle Change,techno,yt,124,heavy,1
+Age_Of_Love Jam_&_Spoon,The Age Of Love,techno,yt,130,melodic,3
+Steve_Parker,The Prophet,techno,yt,130,heavy,1
+kink,pocket piano,techno,yt,125,melodic,2
+legend_b,lost in love,techno acid,yt,160,trance melodic,3
+747,tataki attack,techno acid,yt,125,,2
+747,proxima,techno acid,yt,130,,1
+747,holocene,techno acid,yt,132,,1
+747,suture lines,techno,yt,130,melodic,2
+747,astero ceras,techno,yt,130,melodic,2
+747,tethys,techno acid,yt,130,melodic,2
+traumprinz,big baby jesus,deep house,yt,124,dark,1
+vril,flux,techno,yt,122,dark,1
+747,cambrian,techno acid,yt,130,dark,1
+747,cretaceous,techno,yt,132,melodic,1
+vii_circle,eternal,techno,yt,130,dark heavy,1
+747,pangea,techno acid,yt,130,melodic,2
+gijensu,year 5050,techno,yt,144,heavy melodic,2
+tale_of_us,gta online after hours,techno,yt,,djset,3
+solomun,gta online after hours,techno,yt,,djset,2
+steve_parker,horns of jupiter,techno acid,yt,127,heavy dark,1
+steve_parker,acid machine,techno acid,yt,130,heavy dark,1
+push,universal nation,techno acid,yt,138,melodic heavy,3
