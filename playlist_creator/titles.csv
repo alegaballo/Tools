@@ -1,4 +1,26 @@
 artists,title,genre,src,bpm,tags,rating
+Al_Ferox,Tanz der Vampire,yt,125,heavy boring,2
+Horos Nisek,Docking,techno,yt,,acid,2
+tlak,dispossessed,yt,124,melodic,1
+tlak,eggs,techno,yt,124,dark,1
+TOKiMONSTA Selah_Sue Ouri,I Wish I Could,electronica,yt,,,2
+rafael_cerato,together,techno,yt,123,1
+Hunter/Game,Changing Weather,techno,yt,124,melodic,2
+Charlotte_de_Witte,Varpulis,techno,yt,125,melodic,3
+Charlotte_de_Witte,Remember,techno,yt,130,acid,2
+kangding_ray,rubi,techno,yt,131,dark,3
+Luigi_Tozzi Antonio_Ruscito,Subterrel + Ex Funzione,techno,yt,126,melodic,3
+Øostil,Quantic,techno,yt,126,melodic,2
+fideles,lotus,techno,yt,123,melodic,1
+mind_against,portal,techno,yt,125,melodic,1
+Recondite Henrik_Schwarz,Motion,techno,yt,122,melodic,2
+agents_of_time,paradigm,techno,yt,125,melodic,2
+tale_of_us,nova,techno,yt,123,melodic,2
+Trym,Bellini,techno,sc,,heavy,2
+YYYY,Carry This Blood,techno,yt,130,melodic heavy,2
+ovend,nuits fauves,techno,yt,124,melodic,2
+mathame,opal cithee,techno,yt,124,melodic,2
+mathame,uawok tong,techno,yt,127,melodic dark,2
 mathame,alkahest,techno,yt,124,melodic,3
 Deru,Midnight In The Garden With Ghosts Remix,electronic downtempo,yt,,soft,1
 Deru,let the silence float,ambient,yt,,soft,1
@@ -6,7 +28,7 @@ Deru,only the circle,ambient,yt,,soft,1
 Deru,1979 Full Album,ambient,yt,,soft,1
 Popol_Vuh,Why Do I Still Sleep,neoclassical,yt,,soft,1
 Karenn, I.D Boiler Room London,techno,yt,,,3
-Sebastian_Mullaert, Boiler Room Berlin,techno,yt,,,2
+Sebastian_Mullaert,Boiler Room Berlin,techno,yt,,set,2
 Sebastian_Mullaert,Loop for today live The Dead Sea,electronic,yt,,melodic,2 
 extreme-trax,final fantasy,techno trance,yt,140,melodic,2
 Kara-Lis_Coverdale,Grafts,,yt,,,2
@@ -57,18 +79,20 @@ mathame,fade into you,techno,yt,126,melodic,2
 mathame,22,techno,yt,127,melodic,3
 louis_armstrong,what a wonderful world,jazz,yt,,voice,3
 cole_porter,you'd be so nice to come home to,jazz,yt,,voice,2
-Albinoni,Adagio in G Minor,
-Offenbach,Barcarolle
-Bach,Ave Maria
-Bach,Cello Suite No 1 in G
-Bach,Partita 2 BWV 1004
+Albinoni,Adagio in G Minor,classical,yt,,soft sad violin,,2
+Offenbach,Barcarolle,classical,sp,,soft voice,3
+Bach,Ave Maria,classical,yt,,soft voice,1
+Bach,Cello Suite No 1 in G,yt,,soft cello,3
+Bach,Partita 2 BWV 1004,
 Bach,Violin Sonatas and Partitas BWV 1001 1006
 Beethoven,5th Piano Concerto 'Emperor'
-Beethoven,Cello Sonata No 3 in A major Op 69
+Beethoven,Cello Sonata No 3 in A major Op 69 allegro ma non troppo,sp,,cello piano,soft powerful,2
 Beethoven,Choral Fantasy
 Beethoven,Moonlight Sonata
 Beethoven,Overture Coriolan
-Beethoven,Piano Concerto No 3 in C minor Op 37
+Beethoven,Piano Concerto No 3 in C minor Op 37 allegro con brio,sp,,orchestra piano soft powerful happy,2
+Beethoven,Piano Concerto No 3 in C minor Op 37 largo,sp,,orchestra piano soft,2
+Beethoven,Piano Concerto No 3 in C minor Op 37 rondo allegro,sp,,orchestra piano soft powerful happy,2
 Beethoven,Sonata No 29 in B flat Major Hammerklavier
 Beethoven,Symphony No 8
 Beethoven,Violin Concerto in D Major Op 61
