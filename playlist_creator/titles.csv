@@ -1,4 +1,6 @@
 artists,title,genre,src,bpm,tags,rating
+Kevin_De_Vries,Aratak,techno,yt,,heavy melodic,1
+anna,when i am only a dream,techno,yt,128,,1
 The_Exaltics,The Lost Planet,techno,yt,,acid,2
 The_Exaltics,Snake Mountain,techno,yt,,acid,2
 The_Exaltics,Why,techno,yt,,acid,2
@@ -27,6 +29,7 @@ Trym,Bellini,techno,sc,,heavy,2
 YYYY,Carry This Blood,techno,yt,130,melodic heavy,2
 ovend,nuits fauves,techno,yt,124,melodic,2
 mathame,opal cithee,techno,yt,124,melodic,2
+Mathame,Prophecy Amelie Lens Remix,techno,yt sp,128,dark melodic heavy,2
 mathame,uawok tong,techno,yt,127,melodic dark,2
 mathame,alkahest,techno,yt,124,melodic,3
 Deru,Midnight In The Garden With Ghosts Remix,electronic downtempo,yt,,soft,1
@@ -95,7 +98,9 @@ Bach,Violin Sonatas and Partitas BWV 1001 1006
 Beethoven,5th Piano Concerto 'Emperor'
 Beethoven,Cello Sonata No 3 in A major Op 69 allegro ma non troppo,classical,sp,,cello piano soft powerful,2
 Beethoven,Choral Fantasy
-Beethoven,Moonlight Sonata
+Beethoven,Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 "Moonlight": I. Adagio sostenuto,classical,sp,,piano sad soft,3
+Beethoven,Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 "Moonlight": II. Allegretto,classical,sp,,piano,3
+Beethoven,Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 "Moonlight": III. Presto agitato,classical,sp,,piano powerful,3
 Beethoven,Overture Coriolan,classical,sp,,orchestra powerful,2
 Beethoven,Piano Concerto No 3 in C minor Op 37 allegro con brio,classical,sp,,orchestra piano soft powerful happy,2
 Beethoven,Piano Concerto No 3 in C minor Op 37 largo,classical,sp,,orchestra piano soft,2
@@ -104,11 +109,16 @@ Beethoven,Sonata No 29 in B flat Major Hammerklavier allegro,classical,sp,,piano
 Beethoven,Sonata No 29 in B flat Major Hammerklavier scherzo assai vivace,classical,sp,,piano,2
 Beethoven,Sonata No 29 in B flat Major Hammerklavier adagio sostenuto,classical,sp,,piano soft,3
 Beethoven,Sonata No 29 in B flat Major Hammerklavier largo allegro risoluto,classical,sp,,piano,1
-Beethoven,Symphony No 8
-Beethoven,Violin Concerto in D Major Op 61
-Beethoven,Piano Sonata No 23 'Appassionata' Op 57 allegro assai,classical,sp,,piano powerful,2
-Beethoven,Piano Sonata No 23 'Appassionata' Op 57 
-Beethoven,Piano Sonata No 23 'Appassionata' Op 57
+Beethoven,Symphony No. 8 in F Major Op. 93: I. Allegro vivace e con brio,classical,sp,,orchestra powerful,2
+Beethoven,Symphony No. 8 in F Major Op. 93: II. Allegretto scherzando,classical,sp,,orchestra,2
+Beethoven,Symphony No. 8 in F Major Op. 93: III. Tempo di Menuetto,classical,sp,,orchestra,2
+Beethoven,Symphony No. 8 in F Major Op. 93: IV. Allegro vivace,classical,sp,,orchestra,2
+Beethoven,Violin Concerto Op. 61: I. Allegro ma non troppo,classical,sp,,orchestra violin,2
+Beethoven,Violin Concerto Op. 61: II. Larghetto,classical,sp,,orchestra violin soft,2
+Beethoven,Violin Concerto Op. 61: III. Rondo,classical,sp,,orchestra violin,2
+Beethoven,Piano Sonata No. 23 in F Minor Op. 57 "Appassionata": I. Allegro assai,classical,sp,,piano,,2
+Beethoven,Piano Sonata No. 23 in F Minor Op. 57 "Appassionata": II. Andante con moto,classical,sp,,piano soft,,2
+Beethoven,Piano Sonata No. 23 in F Minor Op. 57 "Appassionata": III. Allegro ma non troppo - Presto,classical,sp,,piano,,2
 Beriot,1st violin concerto
 Beriot,2nd violin concerto mvt1.1
 Beriot,2nd violin concerto mvt1.2
@@ -128,7 +138,9 @@ Beriot,Prélude ou Improvisation op post for solo violin
 Beriot,Scene de Ballet op100 
 Beriot,Concerto No 7 in G major Op 76
 Brahms,Symphony No.3
-Brahms,Cello Sonata No 1 in E minor Op 38
+Brahms,Sonata for Cello and Piano No.1 in E minor Op.38: 1. Allegro non troppo,classical,sp,,cello piano,2
+Brahms,Sonata for Cello and Piano No.1 in E minor Op.38: 2. Allegretto quasi minuetto,classical,sp,,cello piano,2
+Brahms,Sonata for Cello and Piano No.1 in E minor Op.38: 3. Allegro - Più presto,classical,sp,,cello piano,2
 Brahms,Hungarian Dances
 Bruch,Scottish Fantasy in E flat major Op 46
 Bruch,Violin Concerto no 1 G minor
@@ -1700,140 +1712,129 @@ steve_parker,horns of jupiter,techno acid,yt,127,heavy dark,1
 steve_parker,acid machine,techno acid,yt,130,heavy dark,1
 push,universal nation,techno acid,yt,138,melodic heavy,3
 Marco_Bailey,Scorpia,trance acid,yt,150,heavy,3
-
-Colin_Stetson,To See More Light
-Colin_Stetson,Rubdown
-Colin_Stetson,Sunrise
-Colin_Stetson,At God’s Doorstep
-Colin_Stetson,Like wolves on the fold
-Colin_Stetson,All this I do for glory
-Colin_Stetson,Control Room
-Kangding_Ray,Sub.Res
-Kangding_Ray,Dadaist
-Macklemore,Ain't Gonna Die Tonight
-Macklemore,Glorious
-Macklemore,Marmalade 
-Macklemore,Willy Wonka
-Macklemore,Intentions 
-Macklemore,Good Old Days
-Macklemore,Levitate
-Macklemore,Firebreather
-Macklemore,How to Play the Flute
-Macklemore,Ten Million
-Macklemore,Over It
-Macklemore,Zara
-Macklemore,Corner Store
-Macklemore,Miracle
-Macklemore,Church
-Macklemore,Excavate
-Kangding_Ray,Son
-Kangding_Ray,Transitional Ballistics
-Kangding_Ray,Crystal
-Kangding_Ray,History of Obscurity
-Kangding_Ray,Apogee
-Kangding_Ray,Amber Decay
-Kangding_Ray,L'envol
-Kangding_Ray,Blank Empire
-Kangding_Ray,When We Were Queens
-Kangding_Ray,On Sleepless Roads
-Kangding_Ray,Burning Bridges
-Tlak,Dispossessed
-Kangding_Ray,These Are My Rivers
-Kangding_Ray,LANIAKEA
-Kangding_Ray,ONDE MANTIS
-Kangding_Ray,OUTREMER
-Kangding_Ray,SOUL SURFING
-Kangding_Ray,DUNE
-Kangding_Ray,EPSILON
-Kangding_Ray,LONE PYRAMIDS
-Kangding_Ray,RUBI
-Mathame,Opal Cithee
-Mathame,Prophecy Amelie Lens Remix
-Mathame,22
-Mathame,Fade In To You
-Mathame,Nothing Around Us
-Mathame,Alkahest
-LRKR,Journey
-Shlohmo,Places
-Philanthrope Tusken,Clockwork
-Fujitsu,Reefs
-Jinsang,Affection
-Made_in_M,Old Roots New Trees
-eevee,hold up
-Mono:Massive,Attila
-Joey_Pecoraro,Great Food
-Joey_Pecoraro,Seafood
-Joey_Pecoraro,The Bishop
-Joey_Pecoraro,Fly on the Wall
-Joey_Pecoraro,Warm
-Joey_Pecoraro,Your Eyes
-Joey_Pecoraro,Fairy Tale
-Joey_Pecoraro,To Be Happy
-Joey_Pecoraro,Sour Sweets
-Joey_Pecoraro,Lazy on the River
-Joey_Pecoraro,Tired Boy
-Four_Tet,Swimmer
-Four_Tet,Gillie Amma I Love You
-4TLR,Ba Teaches Yoga Live in Tokyo 1st December 2013
-Brian_Eno,Drift
-Brian_Eno,Signals 
-Brian_Eno,An Ending (Ascent)
-Peter_Kuli,Everything
-eevee,corona
-Joey_Pecoraro,Finding Parking
-Arbour,Every Night
-weird_inside,just ask
-Jazzinuf,Dreaming About You
-Juan_Rios,Hawaii
-Wun_Two,Holiday
-Wun_Two,Sk8teing in Central Park
-Wun_Two,Again
-Wun_Two,This
-Wun_Two,City Sleeps
-Sleepdealer,1974
-Sleepdealer,Childhood
-Sleepdealer,Rolling Papers
-eevee,passing by
-Tomppabeats,Far Away
-Made_in_M,Paper Planes
-Made_in_M,Submarino
-Juan_Rios,Colores
-Torus,Feeel
-Tomppabeats,Again
-Colin_Stetson,Reborn
-Colin_Stetson,Spindrift
-Colin_Stetson,The Sun Roars Into View
-Gentlemen_Losers,Honey Bunch
-Colin_Stetson,The Righteous Wrath of an Honorable Man
-Victor_Sylvester_&_His_Ballroom_Orchestra,It's the Talk of the Town Nils Frahm's '78' Recording
-Ben_Lukas_Boysen,Sleepers Beat Theme
-Teebs,Verbena Tea with Rebekah Raff
-Last_Days,Missing Photos
-Bibio,Down to the Sound
-A_Winged_Victory_for_the_Sullen,Requiem for the Static King Pt. 1
-Four_Tet,Two Thousand and Seventeen
-Four_Tet,LA Trance
-Four_Tet,Tremper
-Four_Tet,Lush
-Four_Tet,You Are Loved
-Four_Tet,Memories
-Four_Tet,Daughter
-Four_Tet,Planet
-Qasim_Naqvi,Brutal Moderna
-A_Winged_Victory_for_the_Sullen,Long May It Sustain
-Rival_Consoles,Ritual Song
-Nils_Frahm,Frau Dehlholm
-Daniel_Thorne,Iroise
-Douglas_Dare,Darling
-Michael_Price,Eyn Hallow
-Ben_Lukas_Boysen,Pending
-Anne_Müller,Bel Tono
-Lubomyr_Melnyk,Palisade 1
-Masayoshi_Fujita,Spaceship Magical
-Högni,Máni
+Colin_Stetson,To See More Light,neoclassical,yt,,heavy saxo,2
+Colin_Stetson,Rubdown,neoclassical,sp,,saxo,1
+Colin_Stetson,Sunrise,neoclassical,sp,,soft saxo,1
+Colin_Stetson,At God’s Doorstep,neoclassical,yt,,soft saxo,2
+Colin_Stetson,Like wolves on the fold,neoclassical,sp yt,,saxo heavy,1
+Colin_Stetson,All this I do for glory,neoclassical,sp,,heavy saxo,2
+Colin_Stetson,Control Room,neoclassical,yt,,heavy saxo,2
+Kangding_Ray,Sub.Res,electronic,yt,,soft,1
+Kangding_Ray,Dadaist,electronic,yt,,soft,1
+Macklemore,Ain't Gonna Die Tonight,hip hop,yt,,voice happy,2
+Macklemore,Glorious,hip hop,yt,,voice happy,2
+Macklemore,Marmalade,hip hop,yt,,voice happy,1
+Macklemore,Willy Wonka,hip hop,yt,,voice,1
+Macklemore,Intentions,hip hop,yt,,voice,2
+Macklemore,Good Old Days,hip hop,yt,,voice,1
+Macklemore,Over It,hip hop,yt,,voice cello,3
+Macklemore,Zara,hip hop,yt,,voice,1
+Macklemore,Miracle,hip hop,yt,,voice soft,2
+Macklemore,Church,hip hop,yt,,voice,2
+Macklemore,Excavate,hip hop,yt,,voice,3
+Kangding_Ray,Son,electronic downtempo,yt sp,112,soft melodic,1
+Kangding_Ray,Transitional Ballistics,electronic downtempo,yt sp,,dark melodic,2
+Kangding_Ray,Crystal,electronic downtempo,yt sp,,dark melodic,2
+Kangding_Ray,History of Obscurity,electronic downtempo,yt sp,117,dark melodic,1
+Kangding_Ray,Apogee,electronic downtempo,yt sp,124,dark melodic,2
+Kangding_Ray,Amber Decay,techno,yt sp,124,dark,2
+Kangding_Ray,L'envol,electronic downtempo,yt sp,129,dark melodic,2
+Kangding_Ray,Blank Empire,techno,yt sp,129,dark,2
+Kangding_Ray,When We Were Queens,electronic downtempo,yt sp,120,dark melodic,2
+Kangding_Ray,On Sleepless Roads,techno,yt sp,127,dark heavy,2
+Kangding_Ray,Burning Bridges,electronic downtempo,yt sp,126,dark,2
+Tlak,Dispossessed,techno,yt sp,124,dark melodic,2
+Kangding_Ray,These Are My Rivers,techno,yt sp,128,dark melodic heavy,2
+Kangding_Ray,LANIAKEA,techno,yt sp,130,dark melodic,2
+Kangding_Ray,ONDE MANTIS,techno,yt sp,130,dark heavy,3
+Kangding_Ray,OUTREMER,techno,yt sp,131,dark melodic heavy,3
+Kangding_Ray,SOUL SURFING,techno acid,yt sp,127,dark melodic heavy,2
+Kangding_Ray,DUNE,techno,yt sp,130,dark melodic heavy,3
+Kangding_Ray,EPSILON,electronic downtempo,yt sp,129,dark melodic heavy,2
+Kangding_Ray,LONE PYRAMIDS,techno,yt sp,131,dark melodic heavy,3
+Kangding_Ray,RUBI,techno,yt sp,131,dark melodic heavy,3
+Mathame,Prophecy Amelie Lens Remix,techno,yt sp,128,dark melodic heavy,2
+LRKR,Journey,chill hop,yt sp,,,1
+Shlohmo,Places,chill hop,yt sp,,,1
+Philanthrope Tusken,Clockwork,chill hop,yt sp,,,1
+Fujitsu,Reefs,chill hop,yt sp,,,1
+Jinsang,Affection,chill hop,yt sp,,,1
+Made_in_M,Old Roots New Trees,chill hop,yt sp,,,1
+eevee,hold up,chill hop,yt sp,,,1
+Mono:Massive,Attila,chill hop,yt sp,,,1
+Joey_Pecoraro,Great Food,chill hop,yt sp,,,1
+Joey_Pecoraro,Seafood,chill hop,yt sp,,,1
+Joey_Pecoraro,The Bishop,chill hop,yt sp,,,1
+Joey_Pecoraro,Fly on the Wall,chill hop,yt sp,,,1
+Joey_Pecoraro,Warm,chill hop,yt sp,,,1
+Joey_Pecoraro,Your Eyes,chill hop,yt sp,,,1
+Joey_Pecoraro,Fairy Tale,chill hop,yt sp,,,1
+Joey_Pecoraro,To Be Happy,chill hop,yt sp,,,1
+Joey_Pecoraro,Sour Sweets,chill hop,yt sp,,,1
+Joey_Pecoraro,Lazy on the River,chill hop,yt sp,,,1
+Joey_Pecoraro,Tired Boy,chill hop,yt sp,,,1
+Four_Tet,Swimmer,electronic,yt sp,127,,2
+Four_Tet,Gillie Amma I Love You,electronic,yt sp,,soft voice,2
+four_tet,Live in Tokyo 1st December 2013,electronic,yt,,djset,2
+Brian_Eno,Drift,ambient,yt sp,,soft,2
+Brian_Eno,Signals,ambient,yt sp,,soft,2
+Brian_Eno,An Ending (Ascent),ambient,sp,,soft,2
+Peter_Kuli,Everything,chill hop,yt sp,,,1
+eevee,corona,chill hop,yt sp,,,1
+Joey_Pecoraro,Finding Parking,chill hop,yt sp,,,3
+Arbour,Every Night,chill hop,sp,,,1
+weird_inside,just ask,chill hop,yt sp,,,2
+Jazzinuf,Dreaming About You,chill hop,yt sp,,,2
+Juan_Rios,Hawaii,chill hop,yt sp,,,2
+Wun_Two,Holiday,chill hop,yt sp,,,2
+Wun_Two,Sk8teing in Central Park,chill hop,yt sp,,,2
+Wun_Two,Again,chill hop,yt sp,,,2
+Wun_Two,This,chill hop,sp,,,2
+Wun_Two,City Sleeps,chill hop,sp,,,2
+The_Deli,Flowers,chill hop,yt sp,,,2
+Sleepdealer,1974,chill hop,yt sp,,,1
+Sleepdealer,Childhood,chill hop,yt sp,,,2
+Sleepdealer,Rolling Papers,chill hop,yt sp,,,1
+eevee,passing by,chill hop,yt sp,,,2
+Tomppabeats,Far Away,chill hop,yt sp,,,2
+Made_in_M,Paper Planes,chill hop,yt sp,,,1
+Made_in_M,Submarino,chill hop,yt sp,,,2
+Juan_Rios,Colores,chill hop,yt sp,,,2
+Torus,Feeel,chill hop,yt sp,,,2
+Tomppabeats,Again,chill hop,yt sp,,,2
+Colin_Stetson,Reborn,neoclassical,yt sp,,saxo,3
+Colin_Stetson,Spindrift,neoclassical,yt sp,,saxo,3
+Colin_Stetson,The Sun Roars Into View,neoclassical,yt sp,,saxo,3
+Gentlemen_Losers,Honey Bunch,ambient,yt sp,,soft,2
+Colin_Stetson,The Righteous Wrath of an Honorable Man,neoclassical,yt sp,,saxo,3
+Victor_Sylvester_&_His_Ballroom_Orchestra,It's the Talk of the Town Nils Frahm's '78' Recording,classical,yt sp,,,2
+Ben_Lukas_Boysen,Sleepers Beat Theme,neoclassical,yt sp,,soft piano,1
+Teebs,Verbena Tea with Rebekah Raff,ambient,yt sp,,soft,2
+Last_Days,Missing Photos,ambient,yt sp,,soft,2
+Bibio,Down to the Sound,indie_pop,yt sp,,soft,1
+A_Winged_Victory_for_the_Sullen,Requiem for the Static King Pt. 1,ambient,yt sp,,soft,2
+Four_Tet,Two Thousand and Seventeen,electronic downtempo,yt sp,,soft,3
+Four_Tet,LA Trance,electronic downtempo,yt sp,,soft,3
+Four_Tet,Tremper,ambient,yt sp,,soft,1
+Four_Tet,Lush,deep house,yt sp,,,1
+Four_Tet,You Are Loved,electronic,yt sp,,,2
+Four_Tet,Memories,electronic,yt sp,,,2
+Four_Tet,Daughter,electronic downtempo,yt sp,,,1
+Four_Tet,Planet,electronic,yt sp,,,2
+Qasim_Naqvi,Brutal Moderna,neoclassical,yt sp,,,2
+A_Winged_Victory_for_the_Sullen,Long May It Sustain,neoclassical,yt sp,,soft,1
+Rival_Consoles,Ritual Song,electronic downtempo,yt sp,,piano,1
+Nils_Frahm,Frau Dehlholm,neoclassical,yt sp,,soft piano,2
+Douglas_Dare,Darling,neoclassical,yt sp,,soft piano voice,2
+Michael_Price,Eyn Hallow,neoclassical,yt sp,,,1
+Ben_Lukas_Boysen,Pending,neoclassical,yt sp,,,1
+Anne_Müller,Bel Tono,neoclassical,yt sp,,,2
+Lubomyr_Melnyk,Palisade 1,neoclassical,sp,,soft piano,1
+Masayoshi_Fujita,Spaceship Magical,neoclassical,yt sp,,soft,1
+Högni,Máni,neoclassical,sp,,soft,1
 Peter_Broderick,The Perpetual Glow
 Arthur_Jeffes,Up Is Good
-Daniel_Brandt Rival Consoles,Blackpool Sands Forever
+Daniel_Brandt Rival_Consoles,Blackpool Sands Forever
 Penguin_Cafe Greg_Gives_Peter_Space,Wheels Within Wheels
 Ólafur_Arnalds,re:member
 Ólafur_Arnalds,unfold
@@ -1854,7 +1855,7 @@ Taska_Black,Dead Inside
 Sofie_Letitre,I'll Be Fine Zes Remix
 Taylor_Moon,Plastic Blue
 Nuages,Dreams
-Ludwig_van_Beethoven,Cello Sonata No. 3 in A Major Op. 69: I. Allegro ma non tanto Live
+Ludwig_van_Beethoven,Cello Sonata No. 3 in A Major Op. 69: I. Allegro ma non tanto 
 Recondite,Valvate
 Recondite,Rainmaker
 Recondite,Saudade
@@ -1900,7 +1901,6 @@ Johann_Strauss_II,Un ballo in maschera Quadrille Op. 272
 Johann_Strauss_II,Rosen aus dem Süden Walzer Op. 388
 Josef_Strauss,Eingesendet Polka schnell Op. 240
 Johann_Strauss_II,Unter Donner und Blitz Polka schnell Op. 324
-Various_Artists,Neujahrsgruß / New Year's Address / Allocution du Nouvel An
 Johann_Strauss_II,An der schönen blauen Donau Walzer Op. 314
 Johann_Strauss_I,Radetzky-Marsch Op. 228
 Eomac,Spectre Tommy Four Seven Remix
@@ -1926,9 +1926,9 @@ Tale_Of_Us,Oltre la vita SCB Introspection
 Tale_Of_Us,Dilemma Sebastian Mullaert Forestation
 Tale_Of_Us,Notte senza fine Kiasmos Remix
 Tale_Of_Us,Destino Alva Noto Remodel
-Tale_Of_Us Woo York,Distante 
+Tale_Of_Us Woo_York,Distante 
 Tale_Of_Us Antigone,Venatori
-Tale_Of_Us Antonio Ruscito,Quello che resta
+Tale_Of_Us Antonio_Ruscito,Quello che resta
 Tale_Of_Us Somne,Venatori
 Dustin_O'Halloran,An Ending a Beginning
 Khruangbin,A Calf Born in Winter
