@@ -3,6 +3,7 @@ import argparse
 import spotipy
 import spotipy.util as util
 import spotify_tokens
+import re
 from datetime import datetime
 import warnings
 
@@ -14,7 +15,10 @@ import pandas as pd
 
 def get_songs_list(database, **kwargs):
     genres = kwargs["genre(s)"]
-    moods = kwargs["mood(s)"]
+    tags = kwargs["tag(s)"]
+    rating = kwargs["rating"]
+    bpm = kwargs["bpm"]
+    artists = kwargs["artists"]
     filtered = database
     if genres:
         filtered = filtered[filtered.genre.isin(genres)]
@@ -30,6 +34,12 @@ def create_spotify_playlist(spotify, user, title, public=True, description="Auto
     return res['id']
 
 
+def bpm_type(bpm, pattern=re.compile("[<>] ?\d+$")):
+    if not pattern.match(bpm):
+        raise argparse.ArgumentTypeError
+    return bpm
+
+
 def main():
     timestamp = datetime.today().strftime('%d/%m/%Y %H:%M')
     parser = argparse.ArgumentParser(description='''Python script to create playlists on Spotify and 
@@ -39,8 +49,12 @@ def main():
     parser.add_argument("-f", "--file", required=True, help="csv file to use as input")
     parser.add_argument("-d", "--duration", type=int, default=60, help="duration in minutes of the playlist")
     parser.add_argument("-t", "--title", default="A wonderful playlist - %s" % timestamp, help="playlist title")
-    parser.add_argument("-m", "--mood(s)", nargs='+', help="expected mood of the desired playlist")
+    parser.add_argument("-T", "--tag(s)", nargs='+', help="songs tag(s) to include in the playlist")
     parser.add_argument("-g", "--genre(s)", nargs='+', help="expected genre for the songs in the playlist")
+    parser.add_argument("-a", "--artist(s)", nargs='+', help="artist(s) to include in the playlist")
+    parser.add_argument("-b", "--bpm", type=bpm_type, help="expected genre for the songs in the playlist")
+    parser.add_argument("-r", "--rating", type=float, default=1.0, help="minimum rating for the songs in the playlist")
+
     args = parser.parse_args()
     token = util.prompt_for_user_token(args.user, "playlist-modify-public", 
                                 client_id=spotify_tokens.SPOTIPY_CLIENT_ID,
