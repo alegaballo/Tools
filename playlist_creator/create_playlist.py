@@ -57,9 +57,9 @@ def create_spotify_playlist(spotify, user, title, public=True, description="Auto
     return res['id']
 
 
-def bpm_type(bpm, pattern=re.compile("[<>] ?\d+$")):
+def bpm_type(bpm, pattern=re.compile("[<>] \d+$")):
     if not pattern.match(bpm):
-        print("not match")
+        print("Correct format: [<>] bpm", file=sys.stderr)
         raise argparse.ArgumentTypeError
     return bpm
 
