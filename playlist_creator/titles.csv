@@ -1,13 +1,23 @@
 artists,title,genre,src,bpm,tags,rating
+Shostakovich,Sonata for Cello Piano D Minor Op. 40,classical,sp,,soft,1
+Shostakovich,Waltz No. 2,classical,sp,,soft,3
+mompou michelangeli,cancion 6,classical,sp,,soft piano,3
+vril,omniverse,techno,yt sp,128,dark,2
+Erik_Satie,Gymnopédie 1,classical,sp,,soft,2
+Brulée,Ode Au Désespoir
+Brulée,Animadversion
+Brulée,La Complainte
+Prince_of_Denmark Mind_Against,The Ghost Ran Out of Memory,techno,yt,,melodic,2
+Boston_168,Phenomena,techno,yt,125,melodic,2
 Kevin_De_Vries,Aratak,techno,yt,,heavy melodic,1
 anna,when i am only a dream,techno,yt,128,,1
 The_Exaltics,The Lost Planet,techno,yt,,acid,2
 The_Exaltics,Snake Mountain,techno,yt,,acid,2
 The_Exaltics,Why,techno,yt,,acid,2
 Volvox,Boiler Room NYC,techno,yt,,heavy acid djset,2
-schubert,fantasie in F minor D940 allegro molto moderato,classical,sc,,soft powerful piano,2
-schubert,fantasie in F minor D940 largo,classical,sc,,powerful piano,2
-schubert,fantasie in F minor D940 allegro vivace,sc,,powerful piano,2
+schubert,fantasie in F minor D940 allegro molto moderato,classical,sp,,soft powerful piano,2
+schubert,fantasie in F minor D940 largo,classical,sp,,powerful piano,2
+schubert,fantasie in F minor D940 allegro vivace,sp,,powerful piano,2
 Al_Ferox,Tanz der Vampire,yt,125,heavy boring,2
 Horos Nisek,Docking,techno,yt,,acid,2
 tlak,dispossessed,yt,124,melodic,1
@@ -92,12 +102,19 @@ cole_porter,you'd be so nice to come home to,jazz,yt,,voice,2
 Albinoni,Adagio in G Minor,classical,yt,,soft sad violin,2
 Offenbach,Barcarolle,classical,sp,,soft voice,3
 Bach,Ave Maria,classical,yt,,soft voice,1
-Bach,Cello Suite No 1 in G,yt,,soft cello,3
-Bach,Partita 2 BWV 1004,
+Bach,Cello Suite No 1 in G,classical,yt,,soft cello,3
+Bach Perlman,Partita 2 BWV 1004 allemande,classical,sp,,violin,2
+Bach Perlman,Partita 2 BWV 1004 courante,classical,sp,,violin,1
+Bach Perlman,Partita 2 BWV 1004 sarabande,classical,sp,,violin,2
+Bach Perlman,Partita 2 BWV 1004 chaconne,classical,sp,,violin,3
+Bach Perlman,Partita 2 BWV 1004 giguw,classical,sp,,violin,3
 Bach,Violin Sonatas and Partitas BWV 1001 1006
-Beethoven,5th Piano Concerto 'Emperor'
+beethoven,triple concerto,classical,sp,,cello piano violin orchestra,2
+Beethoven,Piano Concerto 5 Emperor I,classical,sp,,piano orchestra powerful,3
+Beethoven,Piano Concerto 5 Emperor II,classical,sp,,piano orchestra soft,3
+Beethoven,Piano Concerto 5 Emperor III,classical,sp,,piano orchestra powerful,3
 Beethoven,Cello Sonata No 3 in A major Op 69 allegro ma non troppo,classical,sp,,cello piano soft powerful,2
-Beethoven,Choral Fantasy
+Beethoven,Choral Fantasy,classical,sp,,voice piano orchestra,3
 Beethoven,Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 Moonlight: I. Adagio sostenuto,classical,sp,,piano sad soft,3
 Beethoven,Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 Moonlight: II. Allegretto,classical,sp,,piano,3
 Beethoven,Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 Moonlight: III. Presto agitato,classical,sp,,piano powerful,3
@@ -116,9 +133,9 @@ Beethoven,Symphony No. 8 in F Major Op. 93: IV. Allegro vivace,classical,sp,,orc
 Beethoven,Violin Concerto Op. 61: I. Allegro ma non troppo,classical,sp,,orchestra violin,2
 Beethoven,Violin Concerto Op. 61: II. Larghetto,classical,sp,,orchestra violin soft,2
 Beethoven,Violin Concerto Op. 61: III. Rondo,classical,sp,,orchestra violin,2
-Beethoven,Piano Sonata No. 23 in F Minor Op. 57 Appassionata: I. Allegro assai,classical,sp,,piano,,2
-Beethoven,Piano Sonata No. 23 in F Minor Op. 57 Appassionata: II. Andante con moto,classical,sp,,piano soft,,2
-Beethoven,Piano Sonata No. 23 in F Minor Op. 57 Appassionata: III. Allegro ma non troppo - Presto,classical,sp,,piano,,2
+Beethoven,Piano Sonata No. 23 in F Minor Op. 57 Appassionata: I. Allegro assai,classical,sp,,piano,2
+Beethoven,Piano Sonata No. 23 in F Minor Op. 57 Appassionata: II. Andante con moto,classical,sp,,piano soft,2
+Beethoven,Piano Sonata No. 23 in F Minor Op. 57 Appassionata: III. Allegro ma non troppo - Presto,classical,sp,,piano,2
 Beriot,1st violin concerto
 Beriot,2nd violin concerto mvt1.1
 Beriot,2nd violin concerto mvt1.2
@@ -137,35 +154,158 @@ Beriot,mvt3 9th violin concerto
 Beriot,Prélude ou Improvisation op post for solo violin
 Beriot,Scene de Ballet op100 
 Beriot,Concerto No 7 in G major Op 76
-Brahms,Symphony No.3
+Brahms,Symphony No.3 I,classical,sp,,orchestra,2
+Brahms,Symphony No.3 II,classical,sp,,orchestra soft,2
+Brahms,Symphony No.3 III,classical,sp,,orchestra soft,3
+Brahms,Symphony No.3 IV,classical,sp,,orchestra soft,
 Brahms,Sonata for Cello and Piano No.1 in E minor Op.38: 1. Allegro non troppo,classical,sp,,cello piano,2
 Brahms,Sonata for Cello and Piano No.1 in E minor Op.38: 2. Allegretto quasi minuetto,classical,sp,,cello piano,2
 Brahms,Sonata for Cello and Piano No.1 in E minor Op.38: 3. Allegro - Più presto,classical,sp,,cello piano,2
-Brahms,Hungarian Dances
-Bruch,Scottish Fantasy in E flat major Op 46
-Bruch,Violin Concerto no 1 G minor
-DAVID GARRETT,Child's Anthem   
-Chopin,Mazurka Op 67 No 3
+Brahms,Hungarian Dance No.1 in G Minor WoO 1,classical,sp,,powerful,3
+Brahms,Hungarian Dance No.2 in D minor,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.3 In F Major WoO 1,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.4 in F sharp minor,classical,sp,,powerful,3
+Brahms,Hungarian Dance No.5 in G minor,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.6 in D flat,classical,sp,,powerful,3
+Brahms,Hungarian Dance No.7 in F / A,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.8 in A minor,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.9 in E minor,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.10 In F,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.11 in D minor,classical,sp,,powerful,3
+Brahms,Hungarian Dance No.12 in D Minor WoO 1,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.13 In D,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.14 in D minor,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.15 in B flat,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.16 in F minor / major,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.17 in F sharp minor,classical,sp,,powerful,3
+Brahms,Hungarian Dance No.18 in D,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.19 In B Minor,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.20 in E minor,classical,sp,,powerful,2
+Brahms,Hungarian Dance No.21 In E Minor,classical,sp,,powerful,2
+Bruch,Scottish Fantasy Op. 46: I. Introduction (Grave),classical,sp,,powerful violin,2
+Bruch,Scottish Fantasy Op. 46: II. Adagio cantabile,classical,sp,,powerful violin,2
+Bruch,Scottish Fantasy Op. 46: III. Allegro - Adagio,classical,sp,,powerful violin,3
+Bruch,Scottish Fantasy Op. 46: IV. Andante sostenuto,classical,sp,,powerful violin,2
+Bruch,Scottish Fantasy Op. 46: V. Finale - Allegro guerriero,classical,sp,,powerful violin,3
+Bruch,Violin Concerto no 1 G minor I,classical,sp,,violin orchestra soft powerful,3
+Bruch,Violin Concerto no 1 G minor II,classical,sp,,violin orchestra soft,3
+Bruch,Violin Concerto no 1 G minor III,classical,sp,,violin orchestra powerful,3
+chopin,berceuse,classical,sp,,soft piano,2
+chopin,funeral march III lento
+Chopin,Mazurka No.1 In F Sharp Minor Op.6 No.1,classical,sp,,piano soft powerful,3
+Chopin,Mazurka No.2 In C Sharp Minor Op.6 No.2,classical,sp,,piano soft powerful,2
+Chopin,Mazurka No.3 In E Op.6 No.3,classical,sp,,piano soft powerful soft powerful,2
+Chopin,Mazurka No.4 In E Flat Minor Op.6 No.4,classical,sp,,piano soft powerful,2
+Chopin,Mazurka No.5 in B Flat Op.7 No.1,classical,sp,,piano soft powerful,2
+Chopin,Mazurka No.6 In A Minor Op.7 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.7 In F Minor Op.7 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.8 In A Flat Op.7 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.9 In C Op.7 No.5,classical,sp,,piano,2
+Chopin,Mazurka No.10 In B Flat Op.17 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.11 In E Minor Op.17 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.12 In A Flat Op.17 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.13 In A Minor Op.17 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.14 In G Minor Op.24 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.15 In C Op.24 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.16 In A Flat Op.24 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.17 In B Flat Minor Op.24 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.18 In C Minor Op.30 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.19 In B Minor Op.30 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.20 In D Flat Op.30 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.21 In C Sharp Minor Op.30 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.22 In G Sharp Minor Op.33 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.23 in D Major Op.33 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.24 In C Op.33 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.25 In B Minor Op.33 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.26 In C Sharp Minor Op.41 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.27 In E Minor Op.41 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.28 In B Op.41 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.29 in A Flat Major Op.41 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.30 In G Op.50 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.31 In A Flat Op.50 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.32 In C Sharp Minor Op.50 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.33 In B Op.56 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.34 In C Op.56 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.35 In C Minor Op.56 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.36 In A Minor Op.59 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.37 In A Flat Op.59 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.38 In F Sharp Minor Op.59 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.39 In B Op.63 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.40 In F Minor Op.63 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.41 in C Sharp Minor Op.63 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.44 In G Op.67 No.1,classical,sp,,piano,2
+Chopin,Mazurka in G Minor Op.67 No.2,classical,sp,,piano,2
+Chopin,Mazurka in C Major Op.67 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.47 In A Minor Op.67 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.48 in C Op.68 No.1,classical,sp,,piano,2
+Chopin,Mazurka No.49 In A Minor Op.68 No.2,classical,sp,,piano,2
+Chopin,Mazurka No.50 In F Op.68 No.3,classical,sp,,piano,2
+Chopin,Mazurka No.51 In F Minor Op.68 No.4,classical,sp,,piano,2
+Chopin,Mazurka No.42 In A Minor (à Emile Gaillard),classical,sp,,piano,2
+Chopin,Mazurka No.43 In A Minor Op. 67 No. 2,classical,sp,,piano,2
+Chopin,Mazurka No.52 In B Flat (1826),classical,sp,,piano,2
+Chopin,Mazurka No.53 In G,classical,sp,,piano,2
+Chopin,Mazurka No.58 In A Flat,classical,sp,,piano,2
+Chopin,Mazurka No.57 In C,classical,sp,,piano,2
+Chopin,Mazurka In B Flat (1832),classical,sp,,piano,2
+Chopin,Mazurka In D (1832),classical,sp,,piano,2
+Chopin,Mazurka In D (1820),classical,sp,,piano,2
 Chopin,Waltz Inz E Minor
 Chopin,Waltz Op 70 No 1 in G flat
 Chopin,Waltz Op 70 No 2 in F minor
-Chopin,19 Nocturnes
-Chopin,24 Preludes Op28
 Chopin,Cello Sonata in G minor Op 65
-Chopin,Mazurkas
 Chopin,Fantaisie Impromptu Op 66
 Chopin,Marcia funebre Sonata n 2 op 35
-Chopin,Mazurka Op 67 No 2
-Chopin,Nocturne in C Sharp Minor
-Chopin,Nocturne Op 15 No 3 in G minor
-Chopin,Nocturne Op 27 No 2
-Chopin,Nocturne Op37 No2
-Chopin,Nocturne Op48 No1
-Chopin,Nocturne Op 9 n 2
-Chopin, Nocturne op 9 no 1 in B flat minor
-Chopin,Piano Concerto No 1
-Chopin,Polonaise Op 53 
-Chopin,Prelude No 15 In D Flat Major
+Chopin,Nocturne No.1 In B Flat Minor Op.9 No.1,classical,sp,,soft piano,2
+Chopin,Nocturne No.2 In E Flat Op.9 No.2,classical,sp,,soft piano,3
+Chopin,Nocturne No.3 In B Op.9 No.3,classical,sp,,soft piano,2
+Chopin,Nocturne No.4 In F Op.15 No.1,classical,sp,,soft powerful piano,2
+Chopin,Nocturne No.5 In F Sharp Op.15 No.2,classical,sp,,soft piano,2
+Chopin,Nocturne No.6 In G Minor Op.15 No.3,classical,sp,,soft piano,2
+Chopin,Nocturne No.7 In C Sharp Minor Op.27 No.1,classical,sp,,soft piano,2
+Chopin,Nocturne No.8 In D Flat Op.27 No.2,classical,sp,,soft piano,3
+Chopin,Nocturne No.9 In B Op.32 No.1,classical,sp,,soft piano,2
+Chopin,Nocturne No.10 In A Flat Op.32 No.2,classical,sp,,soft piano,2
+Chopin,Nocturne No.11 In G Minor Op.37 No.1,classical,sp,,soft piano,2
+Chopin,Nocturne No.12 In G Op.37 No.2,classical,sp,,soft piano,3
+Chopin,Nocturne No.13 In C Minor Op.48 No.1,classical,sp,,soft powerful piano,3
+Chopin,Nocturne No.14 In F Sharp Minor Op.48 No.2,classical,sp,,soft piano,2
+Chopin,Nocturne No.15 In F Minor Op.55 No.1,classical,sp,,soft piano,2
+Chopin,Nocturne No.16 In E Flat Op.55 No.2,classical,sp,,soft piano,2
+Chopin,Nocturne No.17 In B Op.62 No.1,classical,sp,,soft piano,2
+Chopin,Nocturne No.18 In E Op.62 No.2,classical,sp,,soft piano,2
+Chopin,Nocturne No.19 In E Minor Op.72 No.1,classical,sp,,soft piano,2
+Chopin,24 Préludes Op.28 1 in C Major,classical,sp,,piano,2
+Chopin,24 Préludes Op.28 2 in A minor,classical,sp,,piano soft,2
+Chopin,24 Préludes Op.28 3 in G Major,classical,sp,,piano,2
+Chopin,24 Préludes Op.28 4 in E Minor,classical,sp,,piano soft powerful,2
+Chopin,24 Préludes Op.28 5 in D major,classical,sp,,piano,1
+Chopin,24 Préludes Op.28 6 In B Minor,classical,sp,,piano soft,3
+Chopin,24 Préludes Op.28 7 In A Major,classical,sp,,piano soft,2
+Chopin,24 Préludes Op.28 8 in F sharp minor,classical,sp,,piano,1
+Chopin,24 Préludes Op.28 9 In E Major,classical,sp,,piano,1
+Chopin,24 Préludes Op.28 10 in C sharp minor,classical,sp,,piano,1
+Chopin,24 Préludes Op.28 11 in B major,classical,sp,,piano soft,2
+Chopin,24 Préludes Op.28 12 in G sharp minor,classical,sp,,piano powerful,1
+Chopin,24 Préludes Op.28 13 in F sharp major,classical,sp,,piano soft,2
+Chopin,24 Préludes Op.28 14 in E flat minor,classical,sp,,piano,1
+Chopin,24 Préludes Op.28 15 In D Flat Major "Raindrop",classical,sp,,piano soft,3
+Chopin,24 Préludes Op.28 16 in B flat minor,classical,sp,,piano powerful,1
+Chopin,24 Préludes Op.28 17 in A flat major,classical,sp,,piano soft powerful,2
+Chopin,24 Préludes Op.28 18 in F minor,classical,sp,,piano powerful,1
+Chopin,24 Préludes Op.28 19 in E flat major,classical,sp,,piano,2
+Chopin,24 Préludes Op.28 20 in C minor,classical,sp,,piano powerful,2
+Chopin,24 Préludes Op.28 21 in B flat major,classical,sp,,piano,1
+Chopin,24 Préludes Op.28 22 in G Minor,classical,sp,,piano,1
+Chopin,24 Préludes Op.28 23 in F Major,classical,sp,,piano soft,2
+Chopin,24 Préludes Op.28 24,classical,sp,,piano soft powerful,2
+Chopin,Piano Concerto No 1 I,classical,sp,,powerful piano orchestra,2
+Chopin,Piano Concerto No 1 II,classical,sp,,soft piano orchestra,2
+Chopin,Piano Concerto No 1 III,classical,sp,,powerful piano orchestra,2
+Chopin,Piano Concerto No. 2 in F Minor Op. 21: I. Maestoso,classical,sp,,piano orchestra powerful,2
+Chopin,Piano Concerto No. 2 in F Minor Op. 21: II. Larghetto,classical,sp,,piano orchestra soft,3
+Chopin,Piano Concerto No. 2 in F Minor Op. 21: III. Allegro vivace,classical,sp,,piano orchestra powerful,2
+Chopin,Polonaise Op 53
 Chopin,19 Waltzes 
 Chopin,Scherzo No 2 Op 31
 Chopin,Waltz Op 64 No 2
@@ -178,8 +318,12 @@ Debussy,Nocturne
 Debussy,Rêverie
 Debussy,Six Épigraphes antiques 
 Debussy,Valse Romantique
-Dvorak,Romance for piano and violin Op11
-Dvorak,Slavonic Dance No 6
+Dvořák,Symphony No.9 in E Minor Op.95 B.178 1,classical,sp,,powerful,1
+Dvořák,Symphony No.9 in E Minor Op.95 B.178 2,classical,sp,,soft,2
+Dvořák,Symphony No.9 in E Minor Op.95 B.178 3,classical,sp,,powerful,2
+Dvořák,Symphony No.9 in E Minor Op.95 B.178 4,classical,sp,,powerful,2
+Dvořák,Romance for piano and violin Op11
+Dvořák,Slavonic Dance No 6
 Dvořák,String Quartet No 12 in F major Op 96 'American'
 Grieg,String Quartet No 1 in G Minor Op 27
 Grieg,In the Hall of the Mountain King
@@ -214,14 +358,14 @@ Gershwin,Rhapsody in Blue
 György Orbán Balzene,Suite for Strings
 Haydn,Cello Concerto No1 in C Major
 Berlioz,Symphonie Fantastique
-liszt,Liebestraum No 3 in A flat Major
+liszt,Liebestraum No 3 in A flat Major,classical,sp,,soft piano,3
 Liszt,Années de pèlerinage   II Italia   1 Sposalizio
 Liszt,Bénédiction de Dieu dans la solitude
 Liszt,Consolation D flat major  No3
 Liszt,Consolations I et II
-Liszt,Hungarian Rhapsody No 2
-Liszt,Hungarian Rhapsody No2 Orchestra
-Liszt,Three Concert Etudes S144 No3 'Un Sospiro'
+Liszt,Hungarian Rhapsody No 2 piano,classical,sp,,powerful piano,3
+Liszt,Hungarian Rhapsody No 2 Orchestra,classsical,sp,,powerful orchestra,3
+Liszt,Concert Etudes S.144 No. 3 Un Sospiro,classical,sp,,soft powerful,2
 Locatelli,Concerti Grossi Op I
 Locatelli,l'arte del violino op 3 concerto no 10 in F major
 Locatelli,l'arte del violino op 3 concerto no 11 in A major
@@ -239,18 +383,35 @@ Locatelli,Concerto II in Do minore ' opIII
 Locatelli,Violin Concerto op3 no12
 Bizet,L'amour Est Un Oiseau Rebelle
 Massenet,Meditation thais
-Mendelssohn,Lieder ohne Worte   Gieseking
-Mendelssohn,Violin Concerto in e minor op 64
-Mozart,Piano Concerto No 21 in C major K 467
-Mozart, Piano Concerto No23 (K 488) II Adagio
-Mozart,Symphony No 25 in G minor K 183
+Mendelssohn,Lieder ohne Worte
+Mendelssohn,Violin Concerto in e minor op 64 I,classical,sp,,powerful,3
+Mendelssohn,Violin Concerto in e minor op 64 II,classical,sp,,soft,2
+Mendelssohn,Violin Concerto in e minor op 64 III,classical,sp,,powerful,3
+Mozart,Violin Concerto No. 3 I,classical,sp,,powerful,3
+Mozart,Violin Concerto No. 3 II,classical,sp,,soft,2
+Mozart,Violin Concerto No. 3 III,classical,sp,,powerful,3
+Mozart,Piano Concerto No. 21 in C K467 I,classical,sp,,powerful,3
+Mozart,Piano Concerto No. 21 in C K467 II,classical,sp,,soft,3
+Mozart,Piano Concerto No. 21 in C K467 III,classical,sp,,powerful,3
+Mozart,Piano Concerto No. 27 in B flat K595 I,classical,sp,,powerful,2
+Mozart,Piano Concerto No. 27 in B flat K595 II,classical,sp,,soft,2
+Mozart,Piano Concerto No. 27 in B flat K595 III,classical,sp,,powerful,2
+Mozart,Piano Concerto No.23 K.488 1,classical,sp,,powerful,3
+Mozart,Piano Concerto No.23 K.488 2,classical,sp,,soft,3
+Mozart,Piano Concerto No.23 K.488 3,classical,sp,,powerful,2
+Mozart,Piano Concerto No.20 In D Minor K.466: 1,classical,sp,,powerful,2
+Mozart,Piano Concerto No.20 In D Minor K.466: 2,classical,sp,,soft,2
+Mozart,Piano Concerto No. 20 in D Minor K. 466: 3,classical,sp,,powerful,2
+Mozart,Symphony No 25 in G minor K 183 I,classical,sp,,powerful,3
+Mozart,Symphony No 25 in G minor K 183 II,classical,sp,,powerful,2
+Mozart,Symphony No 25 in G minor K 183 III,classical,sp,,powerful,2
+Mozart,Symphony No 25 in G minor K 183 IV,classical,sp,,powerful,2
 Mozart,Symphony No 39 in E flat K 543 
-Mozart,Piano Concerto no 20 K 466 
 Ornstein,Piano Quintet 3rd mvt
 Paganini,Caprice No 24
 Paganini,Duo Merveille
 Paganini,I Palpiti
-Paganini,La Campanella
+Paganini Liszt,La Campanella,classical,sp,,soft powerful piano,3
 Paganini,Nel cor più non mi sento for violin
 Paganini,The Carnival of Venice
 Paganini,The Infant Fantasia
@@ -264,20 +425,37 @@ Leoncavallo,Ridi Pagliaccio
 Donizetti,Una furtiva lagrima L'elisir d'amore
 Nabucco,Va Pensiero
 Nardini,Violin Concertos
-Rachmaninoff,Prelude Op23 No10 in G flat major
-Rachmaninoff,10 Preludes Op23
-Rachmaninoff,Elegie Op 3 No 1
-Rachmaninoff,Piano Concerto no2 op18
-Rachmaninoff,Rhapsody on a Theme of Paganini Op 43 Variation 18
-Rachmaninoff,vocalise
+Rachmaninoff ashkenazy,Prelude Op 23 No 1,classical,sp,,piano soft,2
+Rachmaninoff ashkenazy,Prelude Op 23 No 2,classical,sp,,piano powerful,2
+Rachmaninoff ashkenazy,Prelude Op 23 No 3,classical,sp,,piano,2
+Rachmaninoff ashkenazy,Prelude Op 23 No 4,classical,sp,,piano soft,2
+Rachmaninoff ashkenazy,Prelude Op 23 No 5,classical,sp,,piano powerful,2
+Rachmaninoff ashkenazy,Prelude Op 23 No 6,classical,sp,,piano,1
+Rachmaninoff ashkenazy,Prelude Op 23 No 7,classical,sp,,piano,1
+Rachmaninoff ashkenazy,Prelude Op 23 No 8,classical,sp,,piano,1
+Rachmaninoff ashkenazy,Prelude Op 23 No 9,classical,sp,,piano,1
+Rachmaninoff ashkenazy,Prelude Op 23 No 10,classical,sp,,piano,2
+Rachmaninoff ashkenazy,Prelude Op 32 No 2,classical,sp,,piano,1
+Rachmaninoff ashkenazy,Prelude Op 32 No 2,classical,sp,,piano powerful,1
+Rachmaninoff ashkenazy,Prelude Op 32 No 5,classical,sp,,piano soft,2
+Rachmaninoff ashkenazy,Prelude Op 32 No 10,classical,sp,,piano,2
+Rachmaninoff ashkenazy,Prelude Op 32 No 11,classical,sp,,piano,1
+Rachmaninoff ashkenazy,Prelude Op 32 No 12,classical,sp,,piano,2
+Rachmaninoff ashkenazy,Prelude Op 32 No 13,classical,sp,,piano,1
+Rachmaninoff,Elegie Op 3 No 1,classical,sp,,piano,1
+Rachmaninoff,Piano Concerto no 2 op 18 I,classical,sp,,piano orchestra powerful,2
+Rachmaninoff,Piano Concerto no 2 op 18 II,classical,sp,,piano orchestra soft,2
+Rachmaninoff,Piano Concerto no 2 op 18 III,classical,sp,,piano orchestra soft powerful,3
+Rachmaninoff,Rhapsody on a Theme of Paganini Op 43 Variation 18,classical,sp,,soft,piano orchestra soft,3
+Rachmaninoff,vocalise,classical,sp,,cello piano soft,2
 Ravel,Bolero
 Ravel,La Valse
 Rieding,Concertino op21 in A minor in Hungarian style
 Korsakov,Ouverture Russisch Paasfeest
-Schumann,Träumerei
+Schumann,Träumerei,classical,sp,,piano soft,2
 Rossini,La gazza ladra
 Saint_Saëns,Sinfonia n 1 Op 2
-Saint_Saëns,Introduction + Rondo Capriccioso op 28
+Saint_Saëns,Introduction + Rondo Capriccioso op 28,classical,sp,,violin orchestra powerful,3
 Saint_Saëns,Danse Macabre for Violin  Piano
 Saint_Saëns,The Carnival of the Animals
 Saint_Saëns,op 28 violin
@@ -288,19 +466,46 @@ Sarasate,Carmen Fantasy
 Sarasate,Spanish Dances No1 Malaguena Op 21
 Sarasate,Spanish Dances op22 no1 Romanza Andaluza
 Sarasate,Zigeunerweisen
-Schubert,String Quartet No14 in D minor
-Schubert Liszt,Ständchen Serenade
-Schubert,4 Impromptus D 899  Op 90
-Schubert,Piano Sonata No 16 D 845 A minor 
-Schubert,Piano Sonata No 17 D 850 D major 
+schubert,Piano trio D.897 notturno,classical,sp,,soft powerful,3
+Schubert,Piano Quintet in A Major Op. 114 D. 667 I,classical,sp,,,1
+Schubert,Piano Quintet in A Major Op. 114 D. 667 II,classical,sp,,,2
+Schubert,Piano Quintet in A Major Op. 114 D. 667 III,classical,sp,,,1
+Schubert,Piano Quintet in A Major Op. 114 D. 667 IV,classical,sp,,,1
+Schubert,Piano Quintet in A Major Op. 114 D. 667 V,classical,sp,,,2
+Schubert,String Quartet No. 14 in D Minor I,classical,sp,,powerful,2
+Schubert,String Quartet No. 14 in D Minor II,classical,sp,,powerful,2
+Schubert,String Quartet No. 14 in D Minor III,classical,sp,,powerful,2
+Schubert,String Quartet No. 14 in D Minor IV,classical,sp,,powerful,2
+Schubert Liszt Horowitz,Ständchen Serenade,classical,sp,,soft,3
+Schubert,Impromptus D. 899 (Op. 90): Impromptu No. 4,classical,sp,,powerful,2
+Schubert,Impromptus D. 899 (Op. 90): Impromptu No. 3,classical,sp,,soft,3
+Schubert,Impromptus D. 899 (Op. 90): Impromptu No. 2,classical,sp,,powerful,2
+Schubert,Impromptus D. 899 (Op. 90): Impromptu No. 1,classical,sp,,soft powerful,3
+Schubert,Symphony No.8 In B Minor D.759: 1,classical,sp,,soft powerful,2
+Schubert,Symphony No.8 In B Minor D.759: 2,classical,sp,,soft powerful,2
+Schubert,Symphony No.5 In B Flat D.485: 1,classical,sp,,powerful,2
+Schubert,Symphony No.5 In B Flat D.485: 2,classical,sp,,soft,1
+Schubert,Symphony No.5 In B Flat D.485: 3,classical,sp,,powerful,1
+Schubert,Symphony No.5 In B Flat D.485: 4,classical,sp,,powerful,1
+Schubert,Piano trio No 1 D 898 Andante un poco mosso,classical,sp,,piano cello violin soft,1
+Schubert,Piano trio No 1 D 898 Rondo. Allegro vivace﻿,classical,sp,,piano cello violin,1
+Schubert,Sonatensatz D 28,classical,sp,,piano violin cello,1
+Schubert,Piano Sonata No 16 D 845 A minor
+Schubert,Piano Sonata No 17 D 850 D major
 Schubert,Piano Sonata No 20 D 959 in A major 
 Schubert,Piano Sonata No 21 D 960 in B flat major 
-Schubert,Piano Trio No 2 in E flat major D 929 2nd mvt
-SCHUBERT,SERENADE
-Sibelius,Symphony 5
-Sibelius,Valse Triste op 44 no 1
-Sibelius,Violin concerto
-Hauser,Mon coeur s'ouvre a ta voix
+Schubert,Piano Trio No 2 in E flat major D 929 I,classical,sp,,piano cello violin,1
+Schubert,Piano Trio No 2 in E flat major D 929 II,classical,sp,,piano cello violin,3
+Schubert,Serenade,classical,sp,,violin orchestra soft,2
+Schubert,marche militare op. 51 No. 1,classical,sp,,orchestra,2
+schubert,moment musical F major Op. 94 No. 3,classical,sp,,piano,2
+Sibelius,Symphony 5,classical,sp,,orchestra,1
+Sibelius,Valse Triste op 44 no 1,classical,sp,,orchestra,3
+Sibelius,Violin concerto I allegro moderato,classical,sp,,violin orchestra soft powerful,3
+Sibelius,Violin concerto II adagio di molto,classical,sp,,violin orchestra,2
+Sibelius,Violin concerto III allegro,classical,sp,,violin orchestra powerful,3
+samuel barber,adagio for strings,neoclassical,sp,,soft,2
+Hauser,Mon coeur s'ouvre a ta voix,classical,sp,,cello piano,2
 Johann_Strauss_II,Accelerationen op 234
 Johann_Strauss_II,Annen Polka op 117
 Johann_Strauss_II,An Der Schönen Blauen Donau
@@ -318,14 +523,26 @@ Johann_Strauss_II,Tritsch Tratsch Polka
 Johann_Strauss_II,Leichtes Blut Op 139
 Johann_Strauss_II,Emperor Waltz Op 437
 Johann_Strauss_II,G'schichten aus dem Wienerwald
-Tartini,Sonata per violino in sol minore 'Il Trillo del Diavolo'
-Tchaikovsky,Serenade op48
+Tartini,Sonata per violino in sol minore 'Il Trillo del Diavolo',classical,sp,violin piano,1
+Tchaikovsky,Piano Concerto No. 1 in B-Flat Minor Op. 23: I,classical,sp,,piano orchestra,2
+Tchaikovsky,Piano Concerto No. 1 in B-Flat Minor Op. 23: II,classical,sp,,piano orchestra,1
+Tchaikovsky,Piano Concerto No. 1 in B-Flat Minor Op. 23: III,classical,sp,,piano orchestra,1
 Tchaikovsky,The Nutcracker Suite Op 71a
-Tchaikovsky,Valse Sentimentale
-Tchaikovsky,Violin Concerto in D major Op 35
-Arensky,Variations on a Theme by Tchaikovsky Op 35
+Tchaikovsky,Valse Sentimentale,classical,sp,,violin orchestra,1
+Tchaikovsky,serenade for strings I,classical,sp,,strings,2
+Tchaikovsky,serenade for strings II,classical,sp,,strings,2
+Tchaikovsky,serenade for strings III,classical,sp,,strings,2
+Tchaikovsky,serenade for strings IV,classical,sp,,strings,2
+Tchaikovsky,symphony 6 I,classical,sp,,orchestra,2
+Tchaikovsky,symphony 6 II,classical,sp,,orchestra,1
+Tchaikovsky,symphony 6 III,classical,sp,,orchestra,1
+Tchaikovsky,symphony 6 IV,classical,sp,,orchestra,1
+Tchaikovsky,Violin Concerto in D Major Op. 35 I,classical,sp,,violin orchestra soft powerful,3
+Tchaikovsky,Violin Concerto in D Major Op. 35 II,classical,sp,,violin orchestra soft,2
+Tchaikovsky,Violin Concerto in D Major Op. 35 III,classical,sp,,violin orchestra powerful,3
+Arensky,Variations on a Theme by Tchaikovsky Op 35,classical,sp,,strings,1
 Vieuxtemps,Henry Fantasia Appassionata opus 35
-Vitali,Chaconne
+Vitali,Chaconne,classical,sp,,violin piano,2
 Vivaldi,L'Autunno
 Vivaldi,Winter
 Vivaldi,Spring
@@ -800,8 +1017,7 @@ The_XX,Basic Space
 The_XX Jonas_Woehl,Stars
 The_xx Jamie_xx,Sunset
 Michael_Manning,Distort
-Voin Oruwu,A-mplification
-﻿Wiz_Khalifa,Black And Yellow
+Wiz_Khalifa,Black And Yellow
 Chris_Brown Lil_Wayne Busta_Rhyme,Look At Me Now
 Soulja_Boy,Crank That
 Eminem Lil_Wayne,No Love
@@ -1437,6 +1653,7 @@ Rival_Consoles,Lone,electronic downtempo,yt,99,melodic,2
 Rival_Consoles Narrator,Recovery,techno,yt,122,melodic,3
 Rival_Consoles,Slow Song,electronic,yt,120,melodic,2
 Rival_Consoles,Walls,electronic downtempo,yt,141,melodic,2
+Rival_Consoles,Sonne,electronic downtempo,yt,113,melodic,2
 Rødhåd,Helldiver,techno,yt,128,dark heavy,2
 Rødhåd,The Wall,techno,yt,128,heavy,2
 SHDW Obscure_Shape,Augen Der Nacht (Ryan James Ford Version),techno,yt,131,,1
@@ -1855,7 +2072,7 @@ Taska_Black,Dead Inside
 Sofie_Letitre,I'll Be Fine Zes Remix
 Taylor_Moon,Plastic Blue
 Nuages,Dreams
-Ludwig_van_Beethoven,Cello Sonata No. 3 in A Major Op. 69: I. Allegro ma non tanto 
+Beethoven,Cello Sonata No. 3 in A Major Op. 69: I. Allegro ma non tanto 
 Recondite,Valvate
 Recondite,Rainmaker
 Recondite,Saudade
