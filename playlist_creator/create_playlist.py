@@ -43,11 +43,13 @@ def get_songs_list(database, **kwargs):
         else:
             filtered = filtered[(filtered.bpm < beats)]
             # filtered = filtered[(filtered.bpm < beats) | (filtered.bpm.isnull())]
-    if tags:
-        filtered = filtered[pd.notnull(tracks['tags'])]
+    if tags_to_exclude:
+        filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include) and\
                                               any(t not in x['tags'].split(' ') for t in tags_to_exclude), axis=1)]
-
+    else:
+        filtered = filtered[pd.notnull(filtered['tags'])]
+        filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include), axis=1)]
         # # splitting the tags on separate rows then joining with the original table
         # # https://stackoverflow.com/questions/17116814/pandas-how-do-i-split-text-in-a-column-into-multiple-rows
         # t = filtered.tags.str.split(expand=True).stack()
@@ -61,7 +63,9 @@ def get_songs_list(database, **kwargs):
 
 
 def create_spotify_playlist(spotify, user, title, public=True, description="Auto-generated playlist"):
-    res = spotify.user_playlist_create(user, title, public, description)
+    # print(user, title, public, description)
+    res = spotify.user_playlist_create(user, title, public=public)
+    # res = spotify.user_playlist_create(user, title, description)
     return res['id']
 
 
@@ -84,6 +88,10 @@ def get_title(**kwargs):
         title += "genres_" + "_".join(kwargs["genre(s)"]) + '_'
     if kwargs["artist(s)"]:
         title += "artists_" + "_".join(kwargs["artist(s)"]) + '_'
+    if kwargs["tag(s)_to_include"]:
+        title += "tagsIn_" + "_".join(kwargs["tag(s)_to_include"]) + '_'
+    if kwargs["tag(s)_to_exclude"]:
+        title += "tagsEx_" + "_".join(kwargs["tag(s)_to_exclude"]) + '_'
     if kwargs["bpm"]:
         title += "bpm_" + "_" + kwargs["bpm"].replace(" ", "_") + '_'
     if title[-1]=="_":
@@ -121,32 +129,44 @@ def main():
 
     database = pd.read_csv(args.file, sep=' *, *', engine="python")
     songs = get_songs_list(database, **vars(args))
-    print(songs.shape)
+    # print(songs)
     
     tracks = []
     playlist_duration = 0
     # converting the playlist required duration in ms
     requested_playlist_duration = args.duration * 60 * 1000
+    print('looking for', songs.shape[0], 'tracks')
     for row in songs.itertuples():
-        # print(row.artists, row.title)
+        print(row.artists, row.title)
         res = sp.search(q="track:%s artist:%s" % (row.title, row.artists.replace("_", " ")), limit=1, type="track") 
-        
+        success = True
+
         try:
             track_id = res["tracks"]["items"][0]["id"]
+            # print('track id', track_id)
             duration_ms = res["tracks"]["items"][0]["duration_ms"]
             tracks.append(track_id)
             playlist_duration += duration_ms
-            if playlist_duration >= requested_playlist_duration:
+            # print(playlist_duration, requested_playlist_duration)
+            # if playlist_duration >= requested_playlist_duration:
                 # print(playlist_duration, requested_playlist_duration)
-                print("Creating playlist...")
-                playlist_id = create_spotify_playlist(sp, args.user, title)
-                print("Adding tracklist: ", tracks)
-                sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
-                print("Created playlist: %s" % title)
-                break
+                # print("Creating playlist...")
+                # playlist_id = create_spotify_playlist(sp, args.user, title)
+                # print("Adding tracklist: ", tracks)
+                # sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
+                # print("Created playlist: %s" % title)
+                # break
         
         except IndexError:
+            success = False
             print("Coudln't find song: {:s} - {:s}".format(row.title, row.artists), file=sys.stderr)
+
+    if success:
+        print("Creating playlist...")
+        playlist_id = create_spotify_playlist(sp, args.user, title)
+        print("Adding tracklist: ", tracks)
+        sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
+        print("Created playlist: %s" % title)
 
 
 if __name__ == "__main__":
