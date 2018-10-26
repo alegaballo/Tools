@@ -60,7 +60,7 @@ bach,cello suite no 1 in g,classical,yt,,soft cello,3
 bach perlman,partita 2 bwv 1004 allemande,classical,sp,,violin,2
 bach perlman,partita 2 bwv 1004 chaconne,classical,sp,,violin,3
 bach perlman,partita 2 bwv 1004 courante,classical,sp,,violin,1
-bach perlman,partita 2 bwv 1004 giguw,classical,sp,,violin,3
+bach perlman,partita 2 bwv 1004 gigue,classical,sp,,violin,3
 bach perlman,partita 2 bwv 1004 sarabande,classical,sp,,violin,2
 beethoven,cello sonata no 3 in a major op 69 allegro ma non troppo,classical,sp,,cello piano soft powerful,2
 beethoven,choral fantasy,classical,sp,,voice piano orchestra,3
@@ -443,7 +443,7 @@ qasim_naqvi,brutal moderna,neoclassical,yt sp,,,2
 samuel barber,adagio for strings,neoclassical,sp,,soft,2
 tale_of_us,notte senza fine,neoclassical,yt,,melodic soft dark,3
 tale_of_us,ricordi,neoclassical,yt,,melodic soft,3
-schubert,fantasie in f minor d940 allegro vivace,sp,,powerful piano,2,
+schubert,fantasie in f minor d940 allegro vivace,classical,sp,,powerful piano,2
 747,astero ceras,techno,yt,130,melodic,2
 747,cretaceous,techno,yt,132,melodic,1
 747,suture lines,techno,yt,130,melodic,2
@@ -510,7 +510,7 @@ denis_horvat,apart,techno,yt,123,melodic dark,2
 denis_horvat,bruto,techno,yt,120,melodic dark,3
 denis_horvat,exit,techno,yt,124,melodic dark,2
 dentis,90's bohemian rave,techno,yt,135,heavy,3
-detroit's filthiest,erratic behavior,techno,spot,130,heavy,2
+detroit's filthiest,erratic behavior,techno,sp,130,heavy,2
 dettmann klock,phantom studies,techno,yt,130,dark melodic,3
 diego_amura,euphausia,techno,yt,131,,2
 distant_echoes,false prophet,techno,yt,130,heavy,1

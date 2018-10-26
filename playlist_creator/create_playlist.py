@@ -25,29 +25,40 @@ def get_songs_list(database, **kwargs):
     rating = kwargs["rating"]
     bpm = kwargs["bpm"]
     artists = kwargs["artists"]
-    
-    filtered = database[(database.src.str.contains(src, na=False))]
+    # print('artists', artists)
+    # print('genres', genres)
+    print('src', src)
+    filtered = database
+    filtered = filtered[pd.notnull(filtered['src'])]
+    filtered = filtered[filtered.apply(lambda x: any(t in x['src'].split(' ') for t in src), axis=1)]
 
     if artists:
-        filtered = filtered[filtered.artists.isin(artists)]
+        # filtered = filtered[filtered.artists.isin(artists)]
+        filtered = filtered[filtered.apply(lambda x: any(t in x['artists'].split(' ') for t in artists), axis=1)]
     if genres:
+        filtered = filtered[pd.notnull(filtered['genre'])]
+        filtered = filtered[filtered.apply(lambda x: all(t in x['genre'].split(' ') for t in genres), axis=1)]
         # filtered = filtered[(filtered.genre.isin(genres)) | (filtered.genre.isnull())]
-        filtered = filtered[(filtered.genre.isin(genres))]
+        # filtered = filtered[(filtered.genre.isin(genres))]
     if rating:
         filtered = filtered[(filtered.rating >= rating)]
     if bpm:
         beats = float(bpm.strip().split()[1])
+        print(beats)
+        # filtered['bpm'] = pd.to_numeric(filtered.bpm)
         if ">" in bpm:
             # filtered = filtered[(filtered.bpm > beats) | (filtered.bpm.isnull())]
-            filtered = filtered[(filtered.bpm > beats)]
-        else:
-            filtered = filtered[(filtered.bpm < beats)]
+            filtered = filtered[filtered.bpm > beats]
+        elif "<" in bpm:
+            filtered = filtered[filtered.bpm < beats]
             # filtered = filtered[(filtered.bpm < beats) | (filtered.bpm.isnull())]
+        else:
+            print('bpm problem')
     if tags_to_exclude:
         filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include) and\
                                               any(t not in x['tags'].split(' ') for t in tags_to_exclude), axis=1)]
-    else:
+    elif tags_to_include:
         filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include), axis=1)]
         # # splitting the tags on separate rows then joining with the original table
@@ -111,11 +122,11 @@ def main():
     parser.add_argument("-t", "--title", help="playlist title")
     parser.add_argument("-Ti", "--tags_to_include", nargs='+', help="songs tags to include in the playlist")
     parser.add_argument("-Te", "--tags_to_exclude", nargs='+', help="songs tags to exclude from the playlist")
-    parser.add_argument("-g", "--genres", nargs='+', help="genre for the songs in the playlist")
+    parser.add_argument("-g", "--genres", nargs='+', help="genres for the songs in the playlist")
     parser.add_argument("-a", "--artists", nargs='+', help="artists to include in the playlist <name_surname>")
     parser.add_argument("-b", "--bpm", type=bpm_type, help="bpm for the songs in the playlist")
     parser.add_argument("-r", "--rating", type=float, default=2.0, help="minimum rating for the songs in the playlist")
-    parser.add_argument("-s", "--source", type=str, default="sp", help="source of the song")
+    parser.add_argument("-s", "--source", type=str, nargs='+', default="sp", help="source of the song")
 
     args = parser.parse_args()
     title = get_title(**vars(args)) # title of the playlist
@@ -137,9 +148,8 @@ def main():
     requested_playlist_duration = args.duration * 60 * 1000
     print('looking for', songs.shape[0], 'tracks')
     for row in songs.itertuples():
-        print(row.artists, row.title)
+        # print(row.artists, row.title)
         res = sp.search(q="track:%s artist:%s" % (row.title, row.artists.replace("_", " ")), limit=1, type="track") 
-        success = True
 
         try:
             track_id = res["tracks"]["items"][0]["id"]
@@ -158,15 +168,25 @@ def main():
                 # break
         
         except IndexError:
-            success = False
-            print("Coudln't find song: {:s} - {:s}".format(row.title, row.artists), file=sys.stderr)
+            print("Couldn't find song: {:s} - {:s}".format(row.title, row.artists), file=sys.stderr)
 
-    if success:
-        print("Creating playlist...")
+    print("Creating playlist...")
+    if len(tracks) <= 100: 
         playlist_id = create_spotify_playlist(sp, args.user, title)
         print("Adding tracklist: ", tracks)
         sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
-        print("Created playlist: %s" % title)
+    else: 
+        playlist_id = create_spotify_playlist(sp, args.user, title)
+        n_splits = len(tracks)//100
+        for i in range(n_splits):
+            tracks_split = tracks[i*100:(i+1)*100]
+            print("Adding tracklist: ", tracks_split)
+            sp.user_playlist_add_tracks(args.user, playlist_id, tracks_split)
+        tracks_split = tracks[100*n_splits:100*n_splits+len(tracks)%100]
+        print("Adding tracklist: ", tracks_split)
+        sp.user_playlist_add_tracks(args.user, playlist_id, tracks_split)
+
+    print("Created playlist: %s" % title)
 
 
 if __name__ == "__main__":

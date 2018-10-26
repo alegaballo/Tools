@@ -48,7 +48,7 @@ You need:
 - `-a` : artists to include in the playlist (can be multiple tags separated by spaces)
 - `-Ti` : song tags to include in the playlist (can be multiple tags separated by spaces)
 - `-Te` : song tags to exclude from the playlist (can be multiple tags separated by spaces)
-- `-b` : bpm for the tracks in the playlist
+- `-b` : bpm for the tracks in the playlist (e.g., -b "> 130")
 - `-r` (default: `2`): minimum rating for the songs in the playlist
 - `-s` (default: `sp`): source of the song
 - `-d` (default: `300`): max duration of playlist in minutes
