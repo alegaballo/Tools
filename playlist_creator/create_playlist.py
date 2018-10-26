@@ -19,12 +19,12 @@ import pandas as pd
 
 def get_songs_list(database, **kwargs):
     src = kwargs["source"]
-    genres = kwargs["genre(s)"]
-    tags_to_include = kwargs["tag(s)_to_include"]
-    tags_to_exclude = kwargs["tag(s)_to_exclude"]
+    genres = kwargs["genres"]
+    tags_to_include = kwargs["tags_to_include"]
+    tags_to_exclude = kwargs["tags_to_exclude"]
     rating = kwargs["rating"]
     bpm = kwargs["bpm"]
-    artists = kwargs["artist(s)"]
+    artists = kwargs["artists"]
     
     filtered = database[(database.src.str.contains(src, na=False))]
 
@@ -84,14 +84,14 @@ def get_title(**kwargs):
 
     if kwargs["rating"]:
         title += "rating_" + str(int(kwargs["rating"])) + '_'
-    if kwargs["genre(s)"]:
-        title += "genres_" + "_".join(kwargs["genre(s)"]) + '_'
-    if kwargs["artist(s)"]:
-        title += "artists_" + "_".join(kwargs["artist(s)"]) + '_'
-    if kwargs["tag(s)_to_include"]:
-        title += "tagsIn_" + "_".join(kwargs["tag(s)_to_include"]) + '_'
-    if kwargs["tag(s)_to_exclude"]:
-        title += "tagsEx_" + "_".join(kwargs["tag(s)_to_exclude"]) + '_'
+    if kwargs["genres"]:
+        title += "genres_" + "_".join(kwargs["genres"]) + '_'
+    if kwargs["artists"]:
+        title += "artists_" + "_".join(kwargs["artists"]) + '_'
+    if kwargs["tags_to_include"]:
+        title += "tagsIn_" + "_".join(kwargs["tags_to_include"]) + '_'
+    if kwargs["tags_to_exclude"]:
+        title += "tagsEx_" + "_".join(kwargs["tags_to_exclude"]) + '_'
     if kwargs["bpm"]:
         title += "bpm_" + "_" + kwargs["bpm"].replace(" ", "_") + '_'
     if title[-1]=="_":
@@ -109,13 +109,13 @@ def main():
     parser.add_argument("-f", "--file", required=True, help="csv file to use as input")
     parser.add_argument("-d", "--duration", type=int, default=300, help="duration in minutes of the playlist")
     parser.add_argument("-t", "--title", help="playlist title")
-    parser.add_argument("-Ti", "--tag(s)_to_include", nargs='+', help="songs tag(s) to include in the playlist")
-    parser.add_argument("-Te", "--tag(s)_to_exclude", nargs='+', help="songs tag(s) to exclude from the playlist")
-    parser.add_argument("-g", "--genre(s)", nargs='+', help="expected genre for the songs in the playlist")
-    parser.add_argument("-a", "--artist(s)", nargs='+', help="artist(s) to include in the playlist <name_surname>")
-    parser.add_argument("-b", "--bpm", type=bpm_type, help="expected bpm for the songs in the playlist")
+    parser.add_argument("-Ti", "--tags_to_include", nargs='+', help="songs tags to include in the playlist")
+    parser.add_argument("-Te", "--tags_to_exclude", nargs='+', help="songs tags to exclude from the playlist")
+    parser.add_argument("-g", "--genres", nargs='+', help="genre for the songs in the playlist")
+    parser.add_argument("-a", "--artists", nargs='+', help="artists to include in the playlist <name_surname>")
+    parser.add_argument("-b", "--bpm", type=bpm_type, help="bpm for the songs in the playlist")
     parser.add_argument("-r", "--rating", type=float, default=2.0, help="minimum rating for the songs in the playlist")
-    parser.add_argument("-s", "--source", type=str, default="sp", help="source of the song: spotify(sp) or youtube(yt)")
+    parser.add_argument("-s", "--source", type=str, default="sp", help="source of the song")
 
     args = parser.parse_args()
     title = get_title(**vars(args)) # title of the playlist

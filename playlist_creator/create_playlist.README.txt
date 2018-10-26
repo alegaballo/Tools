@@ -1,3 +1,0 @@
-DEVELOPER INFO
-
-after creating the Spotify tokens, you need to add to the whitelist the website used for redirection during authentication
