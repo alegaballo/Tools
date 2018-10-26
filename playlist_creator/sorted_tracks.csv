@@ -1,4 +1,4 @@
-artist,title,genre,src,bpm,tags,rating
+artists,title,genre,src,bpm,tags,rating
 a_winged_victory_for_the_sullen,requiem for the static king pt. 1,ambient,yt sp,,soft,2
 brian_eno,an ending (ascent),ambient,sp,,soft,2
 brian_eno,drift,ambient,yt sp,,soft,2
@@ -330,7 +330,8 @@ sibelius,valse triste op 44 no 1,classical,sp,,orchestra,3
 sibelius,violin concerto i allegro moderato,classical,sp,,violin orchestra soft powerful,3
 sibelius,violin concerto ii adagio di molto,classical,sp,,violin orchestra,2
 sibelius,violin concerto iii allegro,classical,sp,,violin orchestra powerful,3
-tartini,sonata per violino in sol minore 'il trillo del diavolo',classical,sp,violin piano,1,
+tartini,sonata per violino in sol minore 'il trillo del diavolo',classical,sp,,violin piano,1
+Tchaikovsky,Capricho Italiano,classical,sp,,orchestra,2
 tchaikovsky,piano concerto no. 1 in b-flat minor op. 23: i,classical,sp,,piano orchestra,2
 tchaikovsky,piano concerto no. 1 in b-flat minor op. 23: ii,classical,sp,,piano orchestra,1
 tchaikovsky,piano concerto no. 1 in b-flat minor op. 23: iii,classical,sp,,piano orchestra,1
