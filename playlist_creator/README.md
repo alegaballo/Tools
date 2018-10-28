@@ -14,11 +14,13 @@ You need:
 - run the script `create_playlist.py` with the arguments you want for filtering (see below for further details)
 
 #### Details about the csv file
+Below the list of column names the csv file can have. If a track has no value for a specific column name, then it won't be considered when a filter is applied on that column.
+ 
 - `artists`: list of composers of the track
     * when the artist's name is formed by multiple words (e.g., `Tale Of Us`), spaces must be replaced by underscore (e.g., `Tale_Of_Us`)
     * when a track has multiple artists, they should be separated by spaces (e.g., `Tale_Of_Us Mind_Against`)
 - `title`: title of the track
-- `genre`: genre of the track
+- `genre`: genre of the track (could be more than one, e.g.,  `acid techno`)
 - `src`: source, where the track can be found
     * `sp` for Spotify 
     * `sc` for SoundCloud
@@ -37,7 +39,7 @@ You need:
         - `dj_set`
         - ...
 - `rating`: personal rating of the track
-    * `1` if the track is negligible
+    * `1` if the track is not that great
     * `2` if the track is great
     * `3` if the track is extraordinary
 

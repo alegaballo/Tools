@@ -25,33 +25,25 @@ def get_songs_list(database, **kwargs):
     rating = kwargs["rating"]
     bpm = kwargs["bpm"]
     artists = kwargs["artists"]
-    # print('artists', artists)
-    # print('genres', genres)
-    print('src', src)
+
     filtered = database
     filtered = filtered[pd.notnull(filtered['src'])]
     filtered = filtered[filtered.apply(lambda x: any(t in x['src'].split(' ') for t in src), axis=1)]
 
     if artists:
-        # filtered = filtered[filtered.artists.isin(artists)]
         filtered = filtered[filtered.apply(lambda x: any(t in x['artists'].split(' ') for t in artists), axis=1)]
     if genres:
         filtered = filtered[pd.notnull(filtered['genre'])]
-        filtered = filtered[filtered.apply(lambda x: all(t in x['genre'].split(' ') for t in genres), axis=1)]
-        # filtered = filtered[(filtered.genre.isin(genres)) | (filtered.genre.isnull())]
-        # filtered = filtered[(filtered.genre.isin(genres))]
+        filtered = filtered[filtered.apply(lambda x: any(t in x['genre'].split(' ') for t in genres), axis=1)]
     if rating:
         filtered = filtered[(filtered.rating >= rating)]
     if bpm:
         beats = float(bpm.strip().split()[1])
         print(beats)
-        # filtered['bpm'] = pd.to_numeric(filtered.bpm)
         if ">" in bpm:
-            # filtered = filtered[(filtered.bpm > beats) | (filtered.bpm.isnull())]
             filtered = filtered[filtered.bpm > beats]
         elif "<" in bpm:
             filtered = filtered[filtered.bpm < beats]
-            # filtered = filtered[(filtered.bpm < beats) | (filtered.bpm.isnull())]
         else:
             print('bpm problem')
     if tags_to_exclude:
@@ -61,22 +53,12 @@ def get_songs_list(database, **kwargs):
     elif tags_to_include:
         filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include), axis=1)]
-        # # splitting the tags on separate rows then joining with the original table
-        # # https://stackoverflow.com/questions/17116814/pandas-how-do-i-split-text-in-a-column-into-multiple-rows
-        # t = filtered.tags.str.split(expand=True).stack()
-        # t.index = t.index.droplevel(-1)
-        # t.name = "tags"
-        # del filtered["tags"]
-        # filtered = filtered.join(t)
-        # filtered = filtered[(filtered.tags.isin(tags)) | (filtered.tags.isnull())] # need to handle tags separately
     
     return filtered
 
 
 def create_spotify_playlist(spotify, user, title, public=True, description="Auto-generated playlist"):
-    # print(user, title, public, description)
     res = spotify.user_playlist_create(user, title, public=public)
-    # res = spotify.user_playlist_create(user, title, description)
     return res['id']
 
 
@@ -153,7 +135,6 @@ def main():
 
         try:
             track_id = res["tracks"]["items"][0]["id"]
-            # print('track id', track_id)
             duration_ms = res["tracks"]["items"][0]["duration_ms"]
             tracks.append(track_id)
             playlist_duration += duration_ms
@@ -169,7 +150,7 @@ def main():
         
         except IndexError:
             print("Couldn't find song: {:s} - {:s}".format(row.title, row.artists), file=sys.stderr)
-
+    print('tracks found:', len(tracks))
     print("Creating playlist...")
     if len(tracks) <= 100: 
         playlist_id = create_spotify_playlist(sp, args.user, title)
