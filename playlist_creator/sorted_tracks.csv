@@ -1,4 +1,5 @@
 artists,title,genre,src,bpm,tags,rating
+enos,asgaard﻿,techno,yt,,melodic,3
 a_winged_victory_for_the_sullen,requiem for the static king pt. 1,ambient,yt sp,,soft,2.0
 brian_eno,an ending (ascent),ambient,sp,,soft,2.0
 brian_eno,drift,ambient,yt sp,,soft,2.0
@@ -588,17 +589,61 @@ anne_müller,bel tono,contemporary_classical,yt sp,,,2.0
 ben_lukas_boysen,pending,contemporary_classical,yt sp,,,1.0
 ben_lukas_boysen,sleepers beat theme,contemporary_classical,yt sp,,soft piano,1.0
 caterina_barbieri,rendering intuitions,contemporary_classical,sp,,cello,2.0
-colin_stetson,all this i do for glory,contemporary_classical,sp,,heavy saxo,2.0
-colin_stetson,at god’s doorstep,contemporary_classical,yt,,soft saxo,2.0
-colin_stetson,control room,contemporary_classical,yt,,heavy saxo,2.0
-colin_stetson,like wolves on the fold,contemporary_classical,sp yt,,saxo heavy,1.0
-colin_stetson,reborn,contemporary_classical,yt sp,,saxo,3.0
-colin_stetson,rubdown,contemporary_classical,sp,,saxo,1.0
-colin_stetson,spindrift,contemporary_classical,yt sp,,saxo,3.0
-colin_stetson,sunrise,contemporary_classical,sp,,soft saxo,1.0
-colin_stetson,the righteous wrath of an honorable man,contemporary_classical,yt sp,,saxo,3.0
-colin_stetson,the sun roars into view,contemporary_classical,yt sp,,saxo,3.0
-colin_stetson,to see more light,contemporary_classical,yt,,heavy saxo,2.0
+colin_stetson,all this i do for glory,experimental,sp,,heavy saxo,2.0
+colin_stetson,at god’s doorstep,experimental,yt,,soft saxo,2.0
+colin_stetson,control room,experimental,yt,,heavy saxo,2.0
+colin_stetson,like wolves on the fold,experimental,sp yt,,saxo heavy,1.0
+colin_stetson,reborn,experimental,yt sp,,saxo,3.0
+colin_stetson,rubdown,experimental,sp,,saxo,1.0
+colin_stetson,spindrift,experimental,yt sp,,saxo,3.0
+colin_stetson,sunrise,experimental,sp,,soft saxo,1.0
+colin_stetson,the righteous wrath of an honorable man,experimental,yt sp,,saxo,3.0
+colin_stetson,the sun roars into view,experimental,yt sp,,saxo,3.0
+colin_stetson,to see more light,experimental,yt,,heavy saxo,3.0
+colin_stetson,and it thought to escape,experimental,sp,,heavy saxo,2.0
+colin_stetson,stand walk,experimental,sp,,heavy saxo,1.0
+colin_stetson,groundswell,experimental,sp,,saxo,1.0
+colin_stetson,time is advancing with fitful irregularity,experimental,sp,,saxo,2.0
+colin_stetson,as a bird or branch,experimental,sp,,saxo,1.0
+colin_stetson,quincy had a glandular problem,experimental,sp,,saxo,2.0
+colin_stetson,letter to hst,experimental,sp,,saxo,2.0
+colin_stetson,our heartbreak perfect,experimental,sp,,saxo,1.0
+colin_stetson,awake of foreign shores,experimental,sp,,saxo,2.0
+colin_stetson,judges,experimental,sp,,saxo,1.0
+colin_stetson,the stars in the head dark lights remix,experimental,sp,,saxo,2.0
+colin_stetson,all the days I've missed you,experimental,sp,,saxo soft,3.0
+colin_stetson,from no part of me could I summon a voice,experimental,sp,,saxo,2.0
+colin_stetson,a dream of water,experimental,sp,,saxo,1.0
+colin_stetson,home,experimental,sp,,saxo,2.0
+colin_stetson,lord I just can't keep from crying sometimes,experimental,sp,,saxo voice,2.0
+colin_stetson,clothed in the skin of the dead,experimental,sp,,saxo,2.0
+colin_stetson,red horse,experimental,sp,,saxo heavy,2.0
+colin_stetson,in love and in justice,experimental,sp,,saxo,2.0
+colin_stetson,and in truth,experimental,sp,,saxo voice,2.0
+colin_stetson,hunted,experimental,sp,,saxo heavy,2.0
+colin_stetson,high above a grey green sea,experimental,sp,,saxo,2.0
+colin_stetson,in mirrors,experimental,sp,,saxo,2.0
+colin_stetson,brute,experimental,sp,,saxo heavy,2.0
+colin_stetson,among the sef,experimental,sp,,saxo,3.0
+colin_stetson,who the waves are roaring for,experimental,sp,,saxo voice,2.0
+colin_stetson,what are they doing in heaven tonight,experimental,sp,,saxo voice,2.0
+colin_stetson,this bed of shattered bone,experimental,sp,,saxo,2.0
+colin_stetson,part of me apart from you,experimental,sp,,saxo,2.0
+colin_stetson,morning of,experimental,sp,,saxo,2.0
+colin_stetson,you wanna be god,experimental,sp,,saxo,2.0
+colin_stetson,aurora borealis,contemporary_classical,sp,,piano,2.0
+colin_stetson,denise,experimental,sp,,saxo,2.0
+colin_stetson,antartica,experimental,sp,,saxo,2.0
+colin_stetson,memory and ambition,contemporary_classical,sp,,saxo piano,2.0
+colin_stetson,the first,contemporary_classical,sp,,soft piano,2.0
+colin_stetson,denise paints,experimental,sp,,saxo,2.0
+colin_stetson,stories,contemporary_classical,sp,,saxo piano soft,2.0
+colin_stetson,relapse,experimental,sp,,saxo heavy,2.0
+colin_stetson,diane,contemporary_classical,sp,,piano violin soft,2.0
+colin_stetson,stages,experimental,sp,,saxo soft,2.0
+colin_stetson,into every corner of the night,experimental,sp,,,2.0
+colin_stetson,the end,experimental,sp,,saxo,2.0
+colin_stetson,the lure of the mine,experimental,sp,,saxo heavy,2.0
 douglas_dare,darling,contemporary_classical,yt sp,,soft piano voice,2.0
 högni,máni,contemporary_classical,sp,,soft,1.0
 lubomyr_melnyk,palisade 1,contemporary_classical,sp,,soft piano,1.0
@@ -1933,9 +1978,9 @@ osunlade,envision
 paganini,caprice no 24
 paganini,duo merveille
 paganini,i palpiti
-paganini,nel cor più non mi sento for violin
-paganini,the carnival of venice
-paganini,the infant fantasia
+paganini,nel cor più non mi sento for violin,classical,sp,,violin,2
+paganini,the carnival of venice,classical,sp,,violin piano,2
+paganini,the infant fantasia,classical,sp,,violin piano,1
 paganini,variations on god save the queen op9 violin solo
 paganini,violin concerto 1
 paganini,violin concerto no 3
@@ -2262,43 +2307,43 @@ yann_tiersen,la chute,contemporary_classical,sp,,piano soft,2
 yann_tiersen,la crise,contemporary_classical,yt,,violin,2
 yann_tiersen,la dispute,contemporary_classical,sp,,piano soft,2
 yann_tiersen,la longue route,contemporary_classical,sp,,piano soft,2
-yann_tiersen,la noyée
-yann_tiersen,la plage
-yann_tiersen,la valse d'amélie
-yann_tiersen,le banquet
-yann_tiersen,le fromveur
-yann_tiersen,le jour d'avant
-yann_tiersen,le matin
-yann_tiersen,le moulin
-yann_tiersen,le quartier
-yann_tiersen,loin des villes
-yann_tiersen,mother and father
+yann_tiersen,la noyée,contemporary_classical,sp,,strings accordion,2
+yann_tiersen,la plage,contemporary_classical,sp,,piano soft,2
+yann_tiersen,la valse d'amélie,contemporary_classical,sp,,piano soft,2
+yann_tiersen,le banquet,contemporary_classical,sp,,accordion,2
+yann_tiersen,le fromveur,contemporary_classical,sp,,strings,2
+yann_tiersen,le jour d'avant,contemporary_classical,sp,,accordion violin,3
+yann_tiersen,le matin,contemporary_classical,sp,,piano soft,2
+yann_tiersen,le moulin,contemporary_classical,sp,,mouth_organ piano soft,2
+yann_tiersen,le quartier,contemporary_classical,sp,,violin,2
+yann_tiersen,loin des villes,contemporary_classical,sp,,violin,2
+yann_tiersen,mother and father,contemporary_classical,sp,,piano soft,2
 yann_tiersen,mother's journey,contemporary_classical,sp,,piano soft,2
-yann_tiersen,naval
+yann_tiersen,naval,contemporary_classical,sp,,piano soft,2
 yann_tiersen,octobre,contemporary_classical,yt,,violin cello,2
-yann_tiersen,point mort
-yann_tiersen,point zero
+yann_tiersen,point mort,contemporary_classical,sp,,soft piano,2
+yann_tiersen,point zero,contemporary_classical,sp,,soft piano,2
 yann_tiersen,qu'en reste-t-il,contemporary_classical,sp,,cello,2
-yann_tiersen,rue des cascades
-yann_tiersen,summer 78'
-yann_tiersen,sur le fil
-yann_tiersen,watching lara
+yann_tiersen,rue des cascades,contemporary_classical,yt,,piano accordion,3
+yann_tiersen,summer 78',contemporary_classical,sp,,piano soft,2
+yann_tiersen,sur le fil,contemporary_classical,sp,,violin soft,2
+yann_tiersen,watching lara,contemporary_classical,sp,,piano soft,2
 yann_tiersen klangkuenstler,die elektronische welt der amélie,deep_house,yt,,,2
 yung_berg,sexy lady
 zedd matthew_koma congorock,spectrum
 zoo_brazil rasmus_kellerman,there is hope
-ólafur_arnalds,brot
-ólafur_arnalds,ekki hugsa
-ólafur_arnalds,inconsist
-ólafur_arnalds,momentary
-ólafur_arnalds,nyepi
-ólafur_arnalds,partial
-ólafur_arnalds,re:member
-ólafur_arnalds,saman
-ólafur_arnalds,they sink
-ólafur_arnalds,undir
-ólafur_arnalds,unfold
-ólafur_arnalds,ypsilon
+ólafur_arnalds,brot,contemporary_classical,sp,,violin soft,2
+ólafur_arnalds,ekki hugsa,contemporary_classical,sp,,piano cello soft,2
+ólafur_arnalds,inconsist,contemporary_classical,sp,,violin cello soft,2
+ólafur_arnalds,momentary,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,nyepi,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,partial,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,re:member,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,saman,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,they sink,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,undir,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,unfold,contemporary_classical,sp,,piano soft,2
+ólafur_arnalds,ypsilon,contemporary_classical,sp,,piano soft,2
 ﻿afrojack,doing it right
 ﻿mgmt,kids
 ﻿the_asteroids_galaxy_tour,the golden age
