@@ -57,5 +57,6 @@ Below the list of column names the csv file can have. If a track has no value fo
 - `-t` (default: concatenation of the filtering arguments): playlist title
 
 ### TODO:
+- select Spotify query results without the word "live"
 - add support for YouTube playlists
 - add support for SoundCloud playlists
