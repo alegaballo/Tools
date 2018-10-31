@@ -263,6 +263,15 @@ dvořák,symphony no.9 in e minor op.95 b.178 2,classical,sp,,soft,2.0
 dvořák,symphony no.9 in e minor op.95 b.178 3,classical,sp,,powerful,2.0
 dvořák,symphony no.9 in e minor op.95 b.178 4,classical,sp,,powerful,2.0
 erik_satie,gymnopédie 1,classical,sp,,soft,2.0
+erik_satie,gymnopédie 2,classical,sp,,soft,2.0
+erik_satie,gymnopédie 3,classical,sp,,soft,2.0
+erik_satie,jazzopédie 1,classical,sp,,piano soft,2.0
+erik_satie,gnossienne no.1,classical,sp,,piano soft,2.0
+erik_satie,gnossienne no.2,classical,sp,,piano soft,2.0
+erik_satie,gnossienne no.3,classical,sp,,piano soft,2.0
+erik_satie,gnossienne no.4,classical,sp,,piano soft,2.0
+erik_satie,gnossienne no.5,classical,sp,,piano soft,2.0
+erik_satie,gnossienne no.6,classical,sp,,piano soft,1.0
 liszt,concert etudes s.144 no. 3 un sospiro,classical,sp,,soft powerful,2.0
 liszt,hungarian rhapsody no 2 piano,classical,sp,,powerful piano,3.0
 liszt,liebestraum no 3 in a flat major,classical,sp,,soft piano,3.0
@@ -608,7 +617,7 @@ colin_stetson,as a bird or branch,experimental,sp,,saxo,1.0
 colin_stetson,quincy had a glandular problem,experimental,sp,,saxo,2.0
 colin_stetson,letter to hst,experimental,sp,,saxo,2.0
 colin_stetson,our heartbreak perfect,experimental,sp,,saxo,1.0
-colin_stetson,awake of foreign shores,experimental,sp,,saxo,2.0
+colin_stetson,awake on foreign shores,experimental,sp,,saxo,2.0
 colin_stetson,judges,experimental,sp,,saxo,1.0
 colin_stetson,the stars in the head dark lights remix,experimental,sp,,saxo,2.0
 colin_stetson,all the days I've missed you,experimental,sp,,saxo soft,3.0
@@ -633,7 +642,7 @@ colin_stetson,morning of,experimental,sp,,saxo,2.0
 colin_stetson,you wanna be god,experimental,sp,,saxo,2.0
 colin_stetson,aurora borealis,contemporary_classical,sp,,piano,2.0
 colin_stetson,denise,experimental,sp,,saxo,2.0
-colin_stetson,antartica,experimental,sp,,saxo,2.0
+colin_stetson,antarctica,experimental,sp,,saxo,2.0
 colin_stetson,memory and ambition,contemporary_classical,sp,,saxo piano,2.0
 colin_stetson,the first,contemporary_classical,sp,,soft piano,2.0
 colin_stetson,denise paints,experimental,sp,,saxo,2.0
@@ -644,6 +653,15 @@ colin_stetson,stages,experimental,sp,,saxo soft,2.0
 colin_stetson,into every corner of the night,experimental,sp,,,2.0
 colin_stetson,the end,experimental,sp,,saxo,2.0
 colin_stetson,the lure of the mine,experimental,sp,,saxo heavy,2.0
+colin_stetson,sunrise,experimental,sp,,saxo,2.0
+colin_stetson,breaking the law,experimental,sp,,saxo,2.0
+colin_stetson,at god's doorstep,experimental,sp,,saxo,2.0
+colin_stetson,in the vespers,experimental,sp,,saxo violin,2.0
+colin_stetson,and still they move,experimenta,sp,,violin,2.0
+colin_stetson,the rest of us,experimental,sp,,saxo violin heavy,2.0
+colin_stetson,never were the way she was,experimental,sp,,violin modular,2.0
+colin_stetson,those who didn't run,experimental,sp,,saxo heavy,2.0
+colin_stetson,the end of your suffering,experimental,sp,,saxo heavy,2.0
 douglas_dare,darling,contemporary_classical,yt sp,,soft piano voice,2.0
 högni,máni,contemporary_classical,sp,,soft,1.0
 lubomyr_melnyk,palisade 1,contemporary_classical,sp,,soft piano,1.0
@@ -1694,6 +1712,11 @@ kleerup,i just want to make that sad boy smile
 kleerup lykke_li,until we bleed (hq)
 klingende,punga
 korsakov,ouverture russisch paasfeest
+rimsky-korsakov,Concert Fantasia on Russian Themes,classical,sp,,violin orchestra,2
+rimsky-korsakov,Scheherazade op.35 1,classical,sp,,orchestra powerful,2
+rimsky-korsakov,Scheherazade op.35 2,classical,sp,,orchestra powerful,2
+rimsky-korsakov,Scheherazade op.35 3,classical,sp,,orchestra soft,2
+rimsky-korsakov,Scheherazade op.35 4,classical,sp,,orchestra poweful,2
 kovacs,50 shades of black
 kovacs,diggin
 kovacs,i've seen that face before
@@ -2272,16 +2295,16 @@ unknown,life in a day soundtrack fireworks and lanterns
 verdi,il barbiere di siviglia
 verdi,la rivedra nell'estasi
 vieuxtemps,henry fantasia appassionata opus 35
-vivaldi,l'autunno
-vivaldi,spring
-vivaldi,summer
-vivaldi,winter
+vivaldi,autumn,classical,sp,,violin orchestra,2
+vivaldi,spring,classical,sp,,violin orchestra,2
+vivaldi,summer,classical,sp,,violin orchestra,3
+vivaldi,winter,classical,sp,,violin orchestra,2
 wankelmut,one day
 wankelmut emma_louise,my head is a jungle
 watermät,bullit
 whithe,mistakes
 wieniawski,8 etudes caprices op10
-wieniawski,op15 variations on an original theme for violin + piano
+wieniawski,op.15 variations on an original theme,classical,sp,,violin piano,2
 wieniawski,op18 for 2 violins
 wieniawski,op20 fantaisie brillante faust for violin and orchestra
 wieniawski,op6 souvenir de moskou

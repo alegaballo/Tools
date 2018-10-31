@@ -27,11 +27,13 @@ def get_songs_list(database, **kwargs):
     artists = kwargs["artists"]
 
     filtered = database
+    # print(filtered.shape[0], 'database')
     filtered = filtered[pd.notnull(filtered['src'])]
     filtered = filtered[filtered.apply(lambda x: any(t in x['src'].split(' ') for t in src), axis=1)]
 
     if artists:
         filtered = filtered[filtered.apply(lambda x: any(t in x['artists'].split(' ') for t in artists), axis=1)]
+        # print(filtered.shape[0], 'artists')
     if genres:
         filtered = filtered[pd.notnull(filtered['genre'])]
         filtered = filtered[filtered.apply(lambda x: any(t in x['genre'].split(' ') for t in genres), axis=1)]
@@ -53,6 +55,7 @@ def get_songs_list(database, **kwargs):
     elif tags_to_include:
         filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include), axis=1)]
+    # print(filtered.shape[0])
     
     return filtered
 
