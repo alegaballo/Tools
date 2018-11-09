@@ -19,7 +19,7 @@ def main():
 @app.route("/home")
 def login():
     token = request.args["code"]
-    session['sp_token'] = list()
+    session['sp_token'] = ""
     print(len(session))
     return "Welcome!"
 
