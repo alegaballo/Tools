@@ -12,23 +12,10 @@
 </div>
 
 <div class="w3-container">
-  <p>Connect your spotify account to use the playlist creator!</p>
-  <a class="w3-button w3-green w3-round-xxlarge" href="https://telegram.me/romitiDJ_bot">Telegram Bot</a>
-  <p id="redirection"> </p>
-  <button class="w3-button w3-circle w3-light-grey" onclick="myFunction()"><i class="fa fa-copy"></i></button>
+  <p>Connect your Spotify or Youtube account to use the playlist creator!</p>
+  <a class="w3-button w3-green w3-round-xxlarge" href="http://localhost:5000/service/spotify">Spotify</a>
+  <a class="w3-button w3-red w3-round-xxlarge" href="https://telegram.me/romitiDJ_bot">Youtube</a>
 
-<script>
-function myFunction() {
-  var copyText = document.getElementById("redirection");
-  copyText.select();
-  document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
-}
-</script>
-</div>
 
-<script>
-document.getElementById("redirection").innerHTML = window.location.href;
-</script>
 </body>
 </html> 
