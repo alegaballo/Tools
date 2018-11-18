@@ -28,8 +28,11 @@ def get_songs_list(database, **kwargs):
 
     filtered = database
     # print(filtered.shape[0], 'database')
-    filtered = filtered[pd.notnull(filtered['src'])]
-    filtered = filtered[filtered.apply(lambda x: any(t in x['src'].split(' ') for t in src), axis=1)]
+    
+    # filtered = filtered[pd.notnull(filtered['src'])]
+    # filtered = filtered[filtered.apply(lambda x: any(t in x['src'].split(' ') for t in src), axis=1)]
+    if rating:
+        filtered = filtered[(filtered.rating >= rating)]
 
     if artists:
         filtered = filtered[filtered.apply(lambda x: any(t in x['artists'].split(' ') for t in artists), axis=1)]
@@ -37,8 +40,6 @@ def get_songs_list(database, **kwargs):
     if genres:
         filtered = filtered[pd.notnull(filtered['genre'])]
         filtered = filtered[filtered.apply(lambda x: any(t in x['genre'].split(' ') for t in genres), axis=1)]
-    if rating:
-        filtered = filtered[(filtered.rating >= rating)]
     if bpm:
         beats = float(bpm.strip().split()[1])
         print(beats)
@@ -126,33 +127,40 @@ def main():
     database = pd.read_csv(args.file, sep=' *, *', engine="python")
     songs = get_songs_list(database, **vars(args))
     # print(songs)
-    
+
     tracks = []
     playlist_duration = 0
     # converting the playlist required duration in ms
     requested_playlist_duration = args.duration * 60 * 1000
     print('looking for', songs.shape[0], 'tracks')
     for row in songs.itertuples():
-        # print(row.artists, row.title)
-        res = sp.search(q="track:%s artist:%s" % (row.title, row.artists.replace("_", " ")), limit=1, type="track") 
-
-        try:
-            track_id = res["tracks"]["items"][0]["id"]
-            duration_ms = res["tracks"]["items"][0]["duration_ms"]
-            tracks.append(track_id)
-            playlist_duration += duration_ms
-            # print(playlist_duration, requested_playlist_duration)
-            # if playlist_duration >= requested_playlist_duration:
+        track_id = ''
+        if isinstance(row.spotify_id, str):
+            track_id = row.spotify_id
+            # print('https://open.spotify.com/track/' + track_id)
+        elif isinstance(row.youtube_id, str):
+            print('YouTube only:', row.artists, row.title)
+        else:
+            try:
+                res = sp.search(q="track:%s artist:%s" % (row.title, row.artists.replace("_", " ")), limit=1, type="track")
+                # print('query', res["tracks"]["items"][0]["id"])
+                track_id = res["tracks"]["items"][0]["id"]
+                # duration_ms = res["tracks"]["items"][0]["duration_ms"]
+                # playlist_duration += duration_ms
                 # print(playlist_duration, requested_playlist_duration)
-                # print("Creating playlist...")
-                # playlist_id = create_spotify_playlist(sp, args.user, title)
-                # print("Adding tracklist: ", tracks)
-                # sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
-                # print("Created playlist: %s" % title)
-                # break
+                # if playlist_duration >= requested_playlist_duration:
+                    # print(playlist_duration, requested_playlist_duration)
+                    # print("Creating playlist...")
+                    # playlist_id = create_spotify_playlist(sp, args.user, title)
+                    # print("Adding tracklist: ", tracks)
+                    # sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
+                    # print("Created playlist: %s" % title)
+                    # break
         
-        except IndexError:
-            print("Couldn't find song: {:s} - {:s}".format(row.title, row.artists), file=sys.stderr)
+            except IndexError:
+                print("Couldn't find song: {:s} - {:s}".format(row.title, row.artists), file=sys.stderr)
+        if track_id:
+            tracks.append(track_id)
     print('tracks found:', len(tracks))
     print("Creating playlist...")
     if len(tracks) <= 100: 
