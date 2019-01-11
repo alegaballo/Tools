@@ -32,14 +32,18 @@ def get_songs_list(database, **kwargs):
     # filtered = filtered[pd.notnull(filtered['src'])]
     # filtered = filtered[filtered.apply(lambda x: any(t in x['src'].split(' ') for t in src), axis=1)]
     if rating:
-        filtered = filtered[(filtered.rating >= rating)]
+       filtered = filtered[(filtered.rating >= rating)]
+        # print(filtered.shape[0], 'rating')
 
     if artists:
         filtered = filtered[filtered.apply(lambda x: any(t in x['artists'].split(' ') for t in artists), axis=1)]
         # print(filtered.shape[0], 'artists')
+
     if genres:
         filtered = filtered[pd.notnull(filtered['genre'])]
         filtered = filtered[filtered.apply(lambda x: any(t in x['genre'].split(' ') for t in genres), axis=1)]
+        # print(filtered.shape[0], 'genres')
+
     if bpm:
         beats = float(bpm.strip().split()[1])
         print(beats)
@@ -53,10 +57,13 @@ def get_songs_list(database, **kwargs):
         filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include) and\
                                               any(t not in x['tags'].split(' ') for t in tags_to_exclude), axis=1)]
+        print(filtered.shape[0], 'tags out')
+
     elif tags_to_include:
+        print(tags_to_include)
         filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include), axis=1)]
-    # print(filtered.shape[0])
+        print(filtered.shape[0], 'tags in')
     
     return filtered
 
@@ -139,10 +146,19 @@ def main():
             track_id = row.spotify_id
             # print('https://open.spotify.com/track/' + track_id)
         elif isinstance(row.youtube_id, str):
-            print('YouTube only:', row.artists, row.title)
+            pass
+            # print('YouTube only:', row.artists, row.title)
         else:
             try:
-                res = sp.search(q="track:%s artist:%s" % (row.title, row.artists.replace("_", " ")), limit=1, type="track")
+                # single quote (') is a problem in spotify: remove it
+                title_split = row.title.split(' ')
+                title_track = ' '.join([w for w in title_split if "'" not in w])
+                # print(title_track)
+                artists_split = row.artists.split('_')
+                artists_split = ' '.join(artists_split).split(' ')
+                artists_track = ' '.join([w for w in artists_split if "'" not in w])
+                # print(artists_split, ',,,,',artists_track)
+                res = sp.search(q="track:%s artist:%s" % (title_track, artists_track), limit=1, type="track")
                 # print('query', res["tracks"]["items"][0]["id"])
                 track_id = res["tracks"]["items"][0]["id"]
                 # duration_ms = res["tracks"]["items"][0]["duration_ms"]
@@ -158,29 +174,31 @@ def main():
                     # break
         
             except IndexError:
-                print("Couldn't find song: {:s} - {:s}".format(row.title, row.artists), file=sys.stderr)
+                if row.src == 'sp':
+                    print("Couldn't find song: {:s} - {:s} Source: {:s}".format(title_track, artists_track, row.src), file=sys.stderr)
         if track_id:
             tracks.append(track_id)
-    print('tracks found:', len(tracks))
-    print("Creating playlist...")
-    if len(tracks) <= 100: 
-        playlist_id = create_spotify_playlist(sp, args.user, title)
-        print("Adding tracklist: ", tracks)
-        sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
-    else: 
-        playlist_id = create_spotify_playlist(sp, args.user, title)
-        n_splits = len(tracks)//100
-        for i in range(n_splits):
-            tracks_split = tracks[i*100:(i+1)*100]
-            print("Adding tracklist: ", tracks_split)
+    if tracks:
+        print('Tracks found:', len(tracks))
+        print("Creating playlist...")
+        if len(tracks) <= 100: 
+            playlist_id = create_spotify_playlist(sp, args.user, title)
+            # print("Adding tracklist: ", tracks)
+            sp.user_playlist_add_tracks(args.user, playlist_id, tracks)
+        else: 
+            playlist_id = create_spotify_playlist(sp, args.user, title)
+            n_splits = len(tracks)//100
+            for i in range(n_splits):
+                tracks_split = tracks[i*100:(i+1)*100]
+                # print("Adding tracklist: ", tracks_split)
+                sp.user_playlist_add_tracks(args.user, playlist_id, tracks_split)
+            tracks_split = tracks[100*n_splits:100*n_splits+len(tracks)%100]
+            # print("Adding tracklist: ", tracks_split)
             sp.user_playlist_add_tracks(args.user, playlist_id, tracks_split)
-        tracks_split = tracks[100*n_splits:100*n_splits+len(tracks)%100]
-        print("Adding tracklist: ", tracks_split)
-        sp.user_playlist_add_tracks(args.user, playlist_id, tracks_split)
 
-    print("Created playlist: %s" % title)
-
+        print("Created playlist: %s" % title)
+    else:
+        print('No tracks found')
 
 if __name__ == "__main__":
     main()
-
