@@ -132,6 +132,10 @@ def main():
     sp = spotipy.Spotify(auth=token)
 
     database = pd.read_csv(args.file, sep=' *, *', engine="python")
+    # database.artists = database.artists.str.lower()
+    # database.title = database.title.str.lower()
+    # # database = database.sort_values(['genre', 'artists', 'title']) # for classical music
+    # database = database.sort_values(['genre', 'artists', 'tags']) # for electronic music
     songs = get_songs_list(database, **vars(args))
     # print(songs)
 
