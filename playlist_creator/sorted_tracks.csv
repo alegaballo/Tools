@@ -397,7 +397,10 @@ chopin,24 préludes op.28 6 in b minor,classical,sp,,piano soft,3.0,4gWa43b9Ifsf
 chopin,24 préludes op.28 7 in a major,classical,sp,,piano soft,2.0,68BjQjk7M99xDUFwEYYEuO,
 chopin,24 préludes op.28 8 in f sharp minor,classical,sp,,piano,1.0,0Z1hc8dk4gvPRv9cskhtKX,
 chopin,24 préludes op.28 9 in e major,classical,sp,,piano,1.0,6qY7P2rEev65mGUrIqOQjx,
-chopin,ballade no. 1 op.23,classical,sp,,piano soft,2,3XnR6bll287JuNE1hYVZRG,
+chopin,ballade no.1 op.23,classical,sp,,piano soft,2,3XnR6bll287JuNE1hYVZRG,
+chopin,ballade no.2 op.38,classical,sp,,piano,1,,
+chopin,ballade no.3 op.47,classical,sp,,piano,1,,
+chopin,ballade no.4 op.52,classical,sp,,piano,1,,
 chopin,berceuse,classical,sp,,soft piano,2.0,,
 chopin,cello sonata in g minor op 65,classical,sp,,cello piano,1.0,,
 chopin,fantaisie-impromptu op 66,classical,sp,,piano powerful,2.0,,
@@ -606,6 +609,7 @@ liszt,consolations no. 3,classical,sp,,piano soft,2.0,,
 liszt,consolations no. 4,classical,sp,,piano soft,2.0,,
 liszt,consolations no. 5,classical,sp,,piano soft,2.0,,
 liszt,consolations no. 6,classical,sp,,piano soft,2.0,,
+liszt,spanish rhapsody,classical,sp,,piano,1.0,,
 liszt,hungarian rhapsody no 2 orchestra,classical,sp,,powerful orchestra,3.0,,
 liszt,hungarian rhapsody no 2 piano,classical,sp,,powerful piano,3.0,7CIoJE0JfVFcmmUY3fFojH,
 liszt,liebestraum no 1,classical,sp,,soft piano,2.0,5fAIYMPRCKUALIHEAFolWV,
@@ -853,7 +857,10 @@ schubert liszt,auf dem wasser zu singen,classical,yt,,piano soft powerful,2.0,,
 schubert liszt,ständchen serenade,classical,sp,,soft,3.0,3ZWTfjbCgg2yVSu3RoMTKJ,
 schumann,carnaval op 9 no 1 préambule,classical,sp,,piano,2.0,4llkQ0xfheIHpAJAmqruyF,
 schumann,träumerei,classical,sp,,piano soft,2.0,,
-sergei_prokofiev,romeo and juliet dance of the knights,classical,sp,,orchestra,2.0,7HSs4srn1qnZhh7WRWBVOk,
+schumann,piano concerto in a minor op.54 1,classical,sp,,piano orchestra,2,5f9BvNfCuGTUejL18r7gdf
+schumann,piano concerto in a minor op.54 2,classical,sp,,piano orchestra,2,78kOSXzrRqnaK5BNBJuJeF
+schumann,piano concerto in a minor op.54 3,classical,sp,,piano orchestra,2,4i2tMU1Fo4MyQVPxIO91hC
+prokofiev,romeo and juliet dance of the knights,classical,sp,,orchestra,2.0,7HSs4srn1qnZhh7WRWBVOk,
 shostakovich,sonata for cello piano d minor op. 40,classical,sp,,soft,1.0,,
 shostakovich,waltz no. 2,classical,sp,,soft,3.0,,
 sibelius,improptu v,classical,sp,,piano,2.0,2kyyNhBUX8aVnKitNPLOhM,
@@ -872,6 +879,7 @@ smetana,má vlast vltava,classical,sp,,orchestra,2.0,,
 smetana,má vlast vyšehrad,classical,sp,,orchestra harp,2.0,,
 smetana,má vlast z českých luhů a hájů,classical,sp,,orchestra,1.0,,
 smetana,má vlast šárka,classical,sp,,orchestra,2.0,,
+smetana,moldau,classical,sp,,orchestra,2,5BfYMZUqH60CizAC6zgx7s,
 strauss_i,marienwalzer op. 212,classical,sp,,,2.0,,
 strauss_i,radetzky marsch op 228,classical,sp,,powerful,2.0,,
 strauss_i,wilhelm tell galopp op. 29b,classical,sp,,powerful,2.0,5IkHx2HfZWAebViNDUzfOJ,
@@ -1643,6 +1651,10 @@ aphex_twin,xtal,electronic,yt,116.0,melodic,1.0,,
 ash_koosha,biutiful,electronic,sp,,,2,,
 ash_koosha,feather,electronic,sp,,,2,,
 ash_koosha,fool moon,electronic,sp,,,2,,
+ash_koosha,needs,electronic,sp,,,2,,
+ash_koosha,saturn,electronic,sp,,,2,,
+ash_koosha,she buzzes,electronic,sp,,,2,,
+ash_koosha,return 0,electronic,sp,,,2,,
 ash_koosha,mudafossil,electronic,sp,,heavy,2,,
 basic_house,ice pop,electronic,sp,,dark,1.0,,
 ben_frost,a sharp blow in passing,electronic,sp,,,2.0,,
@@ -1675,7 +1687,7 @@ blindoldfreak,make friends,electronic,sp,,modular no_beat,1.0,,
 blindoldfreak,smile,electronic,sp,,modular no_beat,2.0,,
 blindoldfreak,wake up,electronic,sp,,modular no_beat,2.0,,
 caterina_barbieri,bestie infinite,electronic,bc,,modular,2.0,,
-caterina_barbieri,gravity that binds,electronic,sp,,modular ,2.0,,
+caterina_barbieri,gravity that binds,electronic,sp,,modular,2.0,,
 caterina_barbieri,how to decode an illusion,electronic,sp,,modular cello,2.0,,
 caterina_barbieri,human developers,electronic,sp,,modular,2.0,,
 caterina_barbieri,information needed to create an entire body,electronic,sp,,modular,3.0,,
@@ -3158,3 +3170,14 @@ unknown,das haett es frueher nicht gegeben #18,,,,,,,
 unknown,das haett es frueher nicht gegeben #19,,,,,,,
 unknown,life in a day soundtrack dawn,,,,,,,
 unknown,life in a day soundtrack fireworks and lanterns,,,,,,,
+Por Una Cabeza,The Tango Project Scent Of A Woman,classical,sp,contemporary_classical,sp,,violin accordion,2,6PUsQDI36IAErq3n9oZBAN
+Clint_Mansell,Together We Will Live Forever,contemporary_classical,sp,,piano soft,2,2pr6us08iPNzIex5q6fMvI
+Stimming,november morning,deep_house,sp,,,2,0GlsmDtWzCsixMexa07Qmj
+john_williams,theme from schindler's list,contemporary_classical,sp,,violin orchestra,2,42gZM6AQ9BDMaTyTmMDVlN
+lea_bertucci,patterns for alto,experimental,sp,,saxo,2
+lea_bertucci,sustain and dissolve,experimental electronic,sp,,modular,2
+lea_bertucci,double bass crossfade,experimental,sp,,,2
+geddes_gengras,mirror,ambient,sp,,,2
+geddes_gengras,nave no_beat,ambient,sp,,,2
+geddes_gengras,subway,ambient,sp,,,2
+geddes_gengras,cancel,ambient,sp,,,2
