@@ -5,7 +5,7 @@ python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -Ti soft 
 python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -Ti heavy;
 python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -Ti no_beat;
 python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -Ti voice;
-python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -Ti modular;
+python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -Ti modular; # skipped
 echo "------------genres 2------------";
 python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -g rock punk;
 python3 create_playlist.py -u matteo7moh -f sorted_tracks.csv -s sp yt -g alternative_rock punk indie alternative;

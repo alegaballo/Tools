@@ -46,7 +46,7 @@ def get_songs_list(database, **kwargs):
 
     if bpm:
         beats = float(bpm.strip().split()[1])
-        print(beats)
+        # print(beats)
         if ">" in bpm:
             filtered = filtered[filtered.bpm > beats]
         elif "<" in bpm:
@@ -60,7 +60,7 @@ def get_songs_list(database, **kwargs):
         print(filtered.shape[0], 'tags out')
 
     elif tags_to_include:
-        print(tags_to_include)
+        # print(tags_to_include)
         filtered = filtered[pd.notnull(filtered['tags'])]
         filtered = filtered[filtered.apply(lambda x: all(t in x['tags'].split(' ') for t in tags_to_include), axis=1)]
         print(filtered.shape[0], 'tags in')
@@ -100,7 +100,7 @@ def get_title(**kwargs):
         title += "bpm_" + "_" + kwargs["bpm"].replace(" ", "_") + '_'
     if title[-1]=="_":
         title = title[:-1]
-
+    print(title)
     return title
 
 
@@ -134,8 +134,13 @@ def main():
     database = pd.read_csv(args.file, sep=' *, *', engine="python")
     # database.artists = database.artists.str.lower()
     # database.title = database.title.str.lower()
-    # # database = database.sort_values(['genre', 'artists', 'title']) # for classical music
-    # database = database.sort_values(['genre', 'artists', 'tags']) # for electronic music
+
+    if args.genres == ['classical']:
+        database = database.sort_values(['genre', 'artists', 'title']) 
+        print('Sorting tracks for classical music...')
+    else:
+        database = database.sort_values(['genre', 'artists', 'tags'])
+        print('Sorting tracks for non-classical music...')
     songs = get_songs_list(database, **vars(args))
     # print(songs)
 
