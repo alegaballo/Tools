@@ -185,6 +185,8 @@ def main():
             except IndexError:
                 if row.src == 'sp':
                     print("Couldn't find song: {:s} - {:s} Source: {:s}".format(title_track, artists_track, row.src), file=sys.stderr)
+            except AttributeError:
+                print(row, ' AttributeError')
         if track_id:
             tracks.append(track_id)
     if tracks:
