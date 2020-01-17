@@ -136,10 +136,10 @@ def main():
     # database.title = database.title.str.lower()
 
     if args.genres == ['classical']:
-        database = database.sort_values(['genre', 'artists', 'title']) 
+        database = database.sort_values(['genre', 'artists', 'title', 'tags']) 
         print('Sorting tracks for classical music...')
     else:
-        database = database.sort_values(['genre', 'artists', 'tags'])
+        database = database.sort_values(['genre', 'artists', 'tags', 'title'])
         print('Sorting tracks for non-classical music...')
     songs = get_songs_list(database, **vars(args))
     # print(songs)

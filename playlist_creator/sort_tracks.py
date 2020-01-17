@@ -10,6 +10,6 @@ import pandas as pd
 tracks = pd.read_csv('sorted_tracks.csv', dtype={'tags': str, 'genre': str})
 tracks.artists = tracks.artists.str.lower()
 tracks.title = tracks.title.str.lower()
-tracks = tracks.sort_values(['genre', 'artists', 'title']) # for classical music
+tracks = tracks.sort_values(['genre', 'artists', 'title', 'tags']) # for classical music
 # tracks = tracks.sort_values(['genre', 'artists', 'tags','title']) # for electronic music
 tracks.to_csv('sorted_tracks.csv', index=False)
