@@ -87,9 +87,9 @@ def get_title(**kwargs):
         return kwargs["title"]
 
     if kwargs["rating"]:
-        title += "rating_" + str(int(kwargs["rating"])) + '_'
+        title += str(int(kwargs["rating"])) + '_'
     if kwargs["genres"]:
-        title += "genres_" + "_".join(kwargs["genres"]) + '_'
+        title += "_".join(kwargs["genres"]) + '_'
     if kwargs["artists"]:
         title += "artists_" + "_".join(kwargs["artists"]) + '_'
     if kwargs["tags_to_include"]:
@@ -152,6 +152,7 @@ def main():
     for row in songs.itertuples():
         track_id = ''
         if isinstance(row.spotify_id, str):
+            # specified manually
             track_id = row.spotify_id
             # print('https://open.spotify.com/track/' + track_id)
         elif isinstance(row.youtube_id, str):
@@ -170,6 +171,27 @@ def main():
                 res = sp.search(q="track:%s artist:%s" % (title_track, artists_track), limit=1, type="track")
                 # print('query', res["tracks"]["items"][0]["id"])
                 track_id = res["tracks"]["items"][0]["id"]
+                ttl_quote = res["tracks"]["items"][0]['name']
+                ttl = ' '.join([w for w in ttl_quote.split(' ') if "'" not in w])
+                # raise AssertionError(res["tracks"]["items"][0]['name'])
+                artists_track_set = set(artists_track.split(' '))
+                t_as = ' '.join([el['name'].lower() for el in res["tracks"]["items"][0]['album']['artists']])
+                # check artist result
+                for a in artists_track_set:
+                    if a.lower() not in t_as:
+                        msg = a + ' not in ' + str(t_as)
+                        print(msg)
+                        track_id = '' # discard bad search result
+                        break
+                        # raise AssertionError(msg)
+
+                # check title result
+                if ttl.lower() not in title_track.lower():
+                    msg = ttl.lower() + ' not in ' + title_track.lower() + ' - ' + t_as
+                    print(msg)
+                    track_id = '' # discard bad search result
+
+
                 # duration_ms = res["tracks"]["items"][0]["duration_ms"]
                 # playlist_duration += duration_ms
                 # print(playlist_duration, requested_playlist_duration)
