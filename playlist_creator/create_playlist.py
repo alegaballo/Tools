@@ -104,6 +104,16 @@ def get_title(**kwargs):
     return title
 
 
+def alphanum_space(s):
+    # s = re.sub(r'[^A-Za-z0-9 ]+', '', s)
+    s = re.sub(r'[-.’\',#$\%"&/`´+*:()]+', '', s)
+    return one_space(s)
+# r'\W+', '', 'This
+
+def one_space(s):
+    return re.sub(' +', ' ', s)
+
+
 def main():
     timestamp = datetime.today().strftime('%d/%m/%Y %H:%M')
     parser = argparse.ArgumentParser(description='''Python script to create playlists on Spotify and 
@@ -160,9 +170,7 @@ def main():
             # print('YouTube only:', row.artists, row.title)
         else:
             try:
-                # single quote (') is a problem in spotify: remove it
-                title_split = row.title.split(' ')
-                title_track = ' '.join([w for w in title_split if "'" not in w])
+                title_track = alphanum_space(row.title)
                 # print(title_track)
                 artists_split = row.artists.split('_')
                 artists_split = ' '.join(artists_split).split(' ')
@@ -171,23 +179,27 @@ def main():
                 res = sp.search(q="track:%s artist:%s" % (title_track, artists_track), limit=1, type="track")
                 # print('query', res["tracks"]["items"][0]["id"])
                 track_id = res["tracks"]["items"][0]["id"]
-                ttl_quote = res["tracks"]["items"][0]['name']
-                ttl = ' '.join([w for w in ttl_quote.split(' ') if "'" not in w])
+                ttl = alphanum_space(res["tracks"]["items"][0]['name'])
+                # ttl_quote = res["tracks"]["items"][0]['name']
+                # ttl = ' '.join([w for w in ttl_quote.split(' ') if "'" not in w])
                 # raise AssertionError(res["tracks"]["items"][0]['name'])
                 artists_track_set = set(artists_track.split(' '))
-                t_as = ' '.join([el['name'].lower() for el in res["tracks"]["items"][0]['album']['artists']])
+                t_as = ' '.join([alphanum_space(el['name'].lower()) for el in res["tracks"]["items"][0]['album']['artists']])
                 # check artist result
+                # my artists must be in the result set
                 for a in artists_track_set:
+                    a = alphanum_space(a)
                     if a.lower() not in t_as:
-                        msg = a + ' not in ' + str(t_as)
+                        msg = 'Artist Error. My file: ' + a + ' differs from search result: ' + str(t_as) + ' - My title: ' + title_track
                         print(msg)
                         track_id = '' # discard bad search result
                         break
                         # raise AssertionError(msg)
 
-                # check title result
-                if ttl.lower() not in title_track.lower():
-                    msg = ttl.lower() + ' not in ' + title_track.lower() + ' - ' + t_as
+                # check title result only if we have good artist(s) match
+                if track_id and title_track.lower() not in ttl.lower():
+                    msg = 'Title Error. My file: ' + title_track.lower() + ' differs from search result: ' + ttl.lower() + ' - My artist(s): ' + str(artists_track_set)
+                    # msg = ttl.lower() + ' not in ' + title_track.lower() + ' - ' + t_as
                     print(msg)
                     track_id = '' # discard bad search result
 
