@@ -172,6 +172,7 @@ def main():
             try:
                 title_track = alphanum_space(row.title)
                 # print(title_track)
+                artists_split_space = row.artists.split(' ')
                 artists_split = row.artists.split('_')
                 artists_split = ' '.join(artists_split).split(' ')
                 artists_track = ' '.join([w for w in artists_split if "'" not in w])
@@ -187,8 +188,8 @@ def main():
                 t_as = ' '.join([alphanum_space(el['name'].lower()) for el in res["tracks"]["items"][0]['album']['artists']])
                 # check artist result
                 # my artists must be in the result set
-                for a in artists_track_set:
-                    a = alphanum_space(a)
+                for a in artists_split_space:
+                    a = alphanum_space(a.replace('_', ' '))
                     if a.lower() not in t_as:
                         msg = 'Artist Error. My file: ' + a + ' differs from search result: ' + str(t_as) + ' - My title: ' + title_track
                         print(msg)
